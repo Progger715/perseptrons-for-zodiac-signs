@@ -5,8 +5,8 @@ from tkinter import scrolledtext
 
 
 
-canvas_width = 256
-canvas_height = 256
+canvas_width = 128
+canvas_height = 128
 brush_size = 3
 color = "black"
 
@@ -72,7 +72,7 @@ width = width // 2
 height = height // 2
 width = width - 200
 height = height - 200
-root.geometry('400x500+{}+{}'.format(width, height))
+root.geometry('300x350+{}+{}'.format(width, height))
 root.resizable(False, False)
 
 w = Canvas(width=canvas_width, height=canvas_height, bg="white")
@@ -90,7 +90,6 @@ save_btn = Button(text="Распознать", width=10, command=get_result)
 save_btn.pack(side=BOTTOM, pady=10)
 
 res = scrolledtext.ScrolledText(root, width=30, height=2)
-res.pack(side=BOTTOM, pady=10)
-
+res.pack(side=TOP, pady=20)
 
 root.mainloop()
