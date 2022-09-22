@@ -3,12 +3,11 @@ from PIL import Image, EpsImagePlugin
 from tkinter.ttk import Combobox
 from tkinter import scrolledtext
 
-
-
 canvas_width = 128
 canvas_height = 128
 brush_size = 3
 color = "black"
+
 
 def paint(event):
     global brush_size
@@ -24,8 +23,9 @@ def delete():
     w.delete("all")
     res.delete(1.0, END)
 
+
 def save():
-    #x = root.winfo_rootx() + w.winfo_x()
+    # x = root.winfo_rootx() + w.winfo_x()
     # y = root.winfo_rooty() + w.winfo_y()
     # x1 = x + w.winfo_width()
     # y1 = y + w.winfo_height()
@@ -39,9 +39,7 @@ def save():
     img.save("Image.png", "png")
 
 
-
-
-def get_result():
+def get_result():  # сюда подавать ответ в виде строки
     save()
     res.delete(1.0, END)
     res.insert(INSERT, "Здесь будет ответ")
@@ -53,15 +51,17 @@ def select():
     new_window.resizable(False, False)
     Label(new_window, text="Выберите, какой знак зодиака был Вами нарисован: \n").pack()
     combo = Combobox(new_window)
-    combo['values'] = ("Овен", "Телец", "Близнецы","Рак","Лев","Дева","Весы","Скорпион","Стрелец","Козерог","Водолей","Рыбы", )
+    combo['values'] = (
+        "Овен", "Телец", "Близнецы", "Рак", "Лев", "Дева", "Весы", "Скорпион", "Стрелец", "Козерог", "Водолей", "Рыбы",)
     combo.current(1)
     combo.pack(pady=20)
+
     def get_combobox():
-        print(str(combo.get()))
+        print(str(combo.get()))  # что выбрал человек при команде "обучить"
         new_window.destroy()
+
     Button(new_window, text="Выбрать", command=get_combobox).pack()
     save()
-
 
 
 root = Tk()
@@ -78,7 +78,6 @@ root.resizable(False, False)
 w = Canvas(width=canvas_width, height=canvas_height, bg="white")
 w.bind("<B1-Motion>", paint)
 w.pack()
-
 
 delete_btn = Button(text="Очистить", width=10, command=delete)
 delete_btn.pack(side=BOTTOM, pady=10)

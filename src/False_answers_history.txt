@@ -1,0 +1,9092 @@
+# 0 2 1
+Image = Gemini1.png
+Result = Libra
+
+# 0 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 0 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 0 0 3
+Image = Aries3.png
+Result = Aquarius
+
+# 0 4 3
+Image = Leo3.png
+Result = Libra
+
+# 0 5 3
+Image = Virgo3.png
+Result = Capricorn
+
+# 0 0 4
+Image = Aries4.png
+Result = Scorpio
+
+# 0 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 0 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 0 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 0 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 0 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 0 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 0 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 0 5 9
+Image = Virgo9.png
+Result = Libra
+
+# 0 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 0 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 0 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 0 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 0 7 10
+Image = Scorpio10.png
+Result = Capricorn
+
+# 0 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 0 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 0 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 0 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 0 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 0 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 0 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 0 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 0 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 0 8 13
+Image = Sagittarius13.png
+Result = Libra
+
+# 0 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 0 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 0 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 0 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 0 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 0 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 0 0 16
+Image = Aries16.png
+Result = Capricorn
+
+# 0 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 0 0 17
+Image = Aries17.png
+Result = Pisces
+
+# 0 4 17
+Image = Leo17.png
+Result = Pisces
+
+# 0 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 0 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 0 0 18
+Image = Aries18.png
+Result = Aquarius
+
+# 0 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 0 0 19
+Image = Aries19.png
+Result = Capricorn
+
+# 0 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 0 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 0 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 1 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 1 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 1 4 2
+Image = Leo2.png
+Result = Sagittarius
+
+# 1 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 1 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 1 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 1 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 1 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 1 0 6
+Image = Aries6.png
+Result = Scorpio
+
+# 1 1 6
+Image = Taurus6.png
+Result = Aquarius
+
+# 1 4 6
+Image = Leo6.png
+Result = Libra
+
+# 1 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 1 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 1 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 1 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 1 6 9
+Image = Libra9.png
+Result = Cancer
+
+# 1 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 1 0 10
+Image = Aries10.png
+Result = Scorpio
+
+# 1 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 1 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 1 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 1 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 1 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 1 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 1 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 1 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 1 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 1 0 14
+Image = Aries14.png
+Result = Libra
+
+# 1 2 14
+Image = Gemini14.png
+Result = Pisces
+
+# 1 4 14
+Image = Leo14.png
+Result = Libra
+
+# 1 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 1 8 14
+Image = Sagittarius14.png
+Result = Capricorn
+
+# 1 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 1 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 1 0 16
+Image = Aries16.png
+Result = Capricorn
+
+# 1 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 1 4 17
+Image = Leo17.png
+Result = Libra
+
+# 1 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 1 0 18
+Image = Aries18.png
+Result = Libra
+
+# 1 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 1 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 1 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 1 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 2 2 1
+Image = Gemini1.png
+Result = Pisces
+
+# 2 3 1
+Image = Cancer1.png
+Result = Capricorn
+
+# 2 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 2 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 2 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 2 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 2 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 2 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 2 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 2 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 2 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 2 6 7
+Image = Libra7.png
+Result = Pisces
+
+# 2 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 2 1 8
+Image = Taurus8.png
+Result = Pisces
+
+# 2 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 2 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 2 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 2 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 2 9 9
+Image = Capricorn9.png
+Result = Aquarius
+
+# 2 0 10
+Image = Aries10.png
+Result = Scorpio
+
+# 2 7 10
+Image = Scorpio10.png
+Result = Pisces
+
+# 2 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 2 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 2 1 11
+Image = Taurus11.png
+Result = Scorpio
+
+# 2 5 11
+Image = Virgo11.png
+Result = Capricorn
+
+# 2 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 2 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 2 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 2 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 2 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 2 9 13
+Image = Capricorn13.png
+Result = Scorpio
+
+# 2 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 2 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 2 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 2 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 2 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 2 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 2 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 2 4 17
+Image = Leo17.png
+Result = Pisces
+
+# 2 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 2 0 18
+Image = Aries18.png
+Result = Libra
+
+# 2 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 2 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 2 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 2 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 3 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 3 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 3 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 3 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 3 4 3
+Image = Leo3.png
+Result = Sagittarius
+
+# 3 0 4
+Image = Aries4.png
+Result = Libra
+
+# 3 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 3 0 5
+Image = Aries5.png
+Result = Aquarius
+
+# 3 0 6
+Image = Aries6.png
+Result = Scorpio
+
+# 3 4 6
+Image = Leo6.png
+Result = Libra
+
+# 3 9 6
+Image = Capricorn6.png
+Result = Scorpio
+
+# 3 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 3 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 3 1 8
+Image = Taurus8.png
+Result = Pisces
+
+# 3 6 8
+Image = Libra8.png
+Result = Pisces
+
+# 3 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 3 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 3 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 3 6 9
+Image = Libra9.png
+Result = Pisces
+
+# 3 9 9
+Image = Capricorn9.png
+Result = Aquarius
+
+# 3 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 3 7 10
+Image = Scorpio10.png
+Result = Capricorn
+
+# 3 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 3 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 3 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 3 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 3 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 3 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 3 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 3 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 3 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 3 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 3 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 3 4 14
+Image = Leo14.png
+Result = Capricorn
+
+# 3 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 3 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 3 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 3 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 3 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 3 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 3 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 3 0 18
+Image = Aries18.png
+Result = Libra
+
+# 3 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 3 0 19
+Image = Aries19.png
+Result = Virgo
+
+# 3 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 3 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 4 2 1
+Image = Gemini1.png
+Result = Pisces
+
+# 4 3 1
+Image = Cancer1.png
+Result = Pisces
+
+# 4 4 2
+Image = Leo2.png
+Result = Sagittarius
+
+# 4 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 4 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 4 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 4 0 5
+Image = Aries5.png
+Result = Scorpio
+
+# 4 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 4 4 6
+Image = Leo6.png
+Result = Libra
+
+# 4 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 4 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 4 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 4 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 4 5 9
+Image = Virgo9.png
+Result = Scorpio
+
+# 4 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 4 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 4 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 4 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 4 0 11
+Image = Aries11.png
+Result = Pisces
+
+# 4 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 4 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 4 6 11
+Image = Libra11.png
+Result = Aquarius
+
+# 4 8 11
+Image = Sagittarius11.png
+Result = Aquarius
+
+# 4 0 12
+Image = Aries12.png
+Result = Capricorn
+
+# 4 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 4 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 4 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 4 8 13
+Image = Sagittarius13.png
+Result = Libra
+
+# 4 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 4 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 4 4 14
+Image = Leo14.png
+Result = Libra
+
+# 4 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 4 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 4 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 4 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 4 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 4 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 4 4 17
+Image = Leo17.png
+Result = Libra
+
+# 4 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 4 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 4 0 18
+Image = Aries18.png
+Result = Libra
+
+# 4 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 4 0 19
+Image = Aries19.png
+Result = Scorpio
+
+# 4 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 4 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 4 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 5 2 1
+Image = Gemini1.png
+Result = Libra
+
+# 5 3 1
+Image = Cancer1.png
+Result = Capricorn
+
+# 5 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 5 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 5 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 5 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 5 0 4
+Image = Aries4.png
+Result = Libra
+
+# 5 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 5 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 5 0 6
+Image = Aries6.png
+Result = Capricorn
+
+# 5 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 5 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 5 6 7
+Image = Libra7.png
+Result = Pisces
+
+# 5 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 5 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 5 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 5 5 9
+Image = Virgo9.png
+Result = Capricorn
+
+# 5 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 5 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 5 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 5 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 5 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 5 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 5 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 5 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 5 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 5 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 5 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 5 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 5 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 5 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 5 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 5 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 5 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 5 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 5 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 5 4 17
+Image = Leo17.png
+Result = Aquarius
+
+# 5 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 5 0 18
+Image = Aries18.png
+Result = Libra
+
+# 5 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 5 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 5 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 5 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 6 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 6 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 6 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 6 0 3
+Image = Aries3.png
+Result = Virgo
+
+# 6 4 3
+Image = Leo3.png
+Result = Libra
+
+# 6 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 6 0 4
+Image = Aries4.png
+Result = Scorpio
+
+# 6 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 6 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 6 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 6 1 6
+Image = Taurus6.png
+Result = Capricorn
+
+# 6 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 6 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 6 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 6 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 6 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 6 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 6 6 9
+Image = Libra9.png
+Result = Pisces
+
+# 6 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 6 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 6 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 6 7 10
+Image = Scorpio10.png
+Result = Pisces
+
+# 6 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 6 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 6 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 6 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 6 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 6 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 6 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 6 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 6 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 6 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 6 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 6 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 6 8 14
+Image = Sagittarius14.png
+Result = Capricorn
+
+# 6 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 6 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 6 0 16
+Image = Aries16.png
+Result = Capricorn
+
+# 6 0 17
+Image = Aries17.png
+Result = Pisces
+
+# 6 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 6 0 18
+Image = Aries18.png
+Result = Capricorn
+
+# 6 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 6 0 19
+Image = Aries19.png
+Result = Libra
+
+# 6 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 6 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 7 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 7 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 7 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 7 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 7 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 7 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 7 0 5
+Image = Aries5.png
+Result = Scorpio
+
+# 7 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 7 4 6
+Image = Leo6.png
+Result = Libra
+
+# 7 9 6
+Image = Capricorn6.png
+Result = Scorpio
+
+# 7 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 7 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 7 1 8
+Image = Taurus8.png
+Result = Pisces
+
+# 7 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 7 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 7 5 9
+Image = Virgo9.png
+Result = Libra
+
+# 7 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 7 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 7 7 10
+Image = Scorpio10.png
+Result = Capricorn
+
+# 7 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 7 0 11
+Image = Aries11.png
+Result = Pisces
+
+# 7 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 7 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 7 6 11
+Image = Libra11.png
+Result = Aquarius
+
+# 7 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 7 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 7 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 7 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 7 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 7 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 7 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 7 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 7 8 14
+Image = Sagittarius14.png
+Result = Aquarius
+
+# 7 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 7 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 7 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 7 4 17
+Image = Leo17.png
+Result = Libra
+
+# 7 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 7 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 7 0 18
+Image = Aries18.png
+Result = Capricorn
+
+# 7 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 7 0 19
+Image = Aries19.png
+Result = Scorpio
+
+# 7 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 7 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 8 2 1
+Image = Gemini1.png
+Result = Pisces
+
+# 8 3 1
+Image = Cancer1.png
+Result = Capricorn
+
+# 8 4 2
+Image = Leo2.png
+Result = Sagittarius
+
+# 8 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 8 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 8 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 8 0 4
+Image = Aries4.png
+Result = Scorpio
+
+# 8 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 8 0 6
+Image = Aries6.png
+Result = Capricorn
+
+# 8 1 6
+Image = Taurus6.png
+Result = Virgo
+
+# 8 4 6
+Image = Leo6.png
+Result = Pisces
+
+# 8 9 6
+Image = Capricorn6.png
+Result = Scorpio
+
+# 8 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 8 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 8 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 8 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 8 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 8 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 8 9 9
+Image = Capricorn9.png
+Result = Aquarius
+
+# 8 0 10
+Image = Aries10.png
+Result = Libra
+
+# 8 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 8 7 10
+Image = Scorpio10.png
+Result = Pisces
+
+# 8 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 8 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 8 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 8 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 8 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 8 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 8 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 8 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 8 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 8 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 8 1 14
+Image = Taurus14.png
+Result = Pisces
+
+# 8 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 8 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 8 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 8 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 8 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 8 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 8 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 8 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 8 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 8 0 18
+Image = Aries18.png
+Result = Aquarius
+
+# 8 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 8 0 19
+Image = Aries19.png
+Result = Libra
+
+# 8 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 8 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 8 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 9 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 9 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 9 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 9 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 9 4 3
+Image = Leo3.png
+Result = Libra
+
+# 9 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 9 6 4
+Image = Libra4.png
+Result = Aquarius
+
+# 9 0 5
+Image = Aries5.png
+Result = Scorpio
+
+# 9 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 9 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 9 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 9 6 7
+Image = Libra7.png
+Result = Cancer
+
+# 9 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 9 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 9 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 9 5 9
+Image = Virgo9.png
+Result = Scorpio
+
+# 9 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 9 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 9 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 9 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 9 1 11
+Image = Taurus11.png
+Result = Scorpio
+
+# 9 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 9 6 11
+Image = Libra11.png
+Result = Aquarius
+
+# 9 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 9 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 9 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 9 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 9 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 9 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 9 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 9 4 14
+Image = Leo14.png
+Result = Capricorn
+
+# 9 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 9 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 9 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 9 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 9 0 16
+Image = Aries16.png
+Result = Pisces
+
+# 9 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 9 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 9 4 17
+Image = Leo17.png
+Result = Pisces
+
+# 9 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 9 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 9 0 18
+Image = Aries18.png
+Result = Libra
+
+# 9 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 9 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 9 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 9 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 10 2 1
+Image = Gemini1.png
+Result = Libra
+
+# 10 3 1
+Image = Cancer1.png
+Result = Pisces
+
+# 10 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 10 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 10 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 10 5 3
+Image = Virgo3.png
+Result = Capricorn
+
+# 10 0 4
+Image = Aries4.png
+Result = Scorpio
+
+# 10 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 10 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 10 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 10 4 6
+Image = Leo6.png
+Result = Libra
+
+# 10 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 10 6 7
+Image = Libra7.png
+Result = Pisces
+
+# 10 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 10 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 10 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 10 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 10 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 10 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 10 0 10
+Image = Aries10.png
+Result = Scorpio
+
+# 10 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 10 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 10 0 11
+Image = Aries11.png
+Result = Pisces
+
+# 10 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 10 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 10 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 10 0 12
+Image = Aries12.png
+Result = Sagittarius
+
+# 10 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 10 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 10 5 13
+Image = Virgo13.png
+Result = Capricorn
+
+# 10 8 13
+Image = Sagittarius13.png
+Result = Libra
+
+# 10 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 10 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 10 4 14
+Image = Leo14.png
+Result = Libra
+
+# 10 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 10 8 14
+Image = Sagittarius14.png
+Result = Aquarius
+
+# 10 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 10 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 10 0 16
+Image = Aries16.png
+Result = Capricorn
+
+# 10 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 10 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 10 5 17
+Image = Virgo17.png
+Result = Pisces
+
+# 10 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 10 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 10 0 18
+Image = Aries18.png
+Result = Virgo
+
+# 10 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 10 0 19
+Image = Aries19.png
+Result = Libra
+
+# 10 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 11 2 1
+Image = Gemini1.png
+Result = Pisces
+
+# 11 3 1
+Image = Cancer1.png
+Result = Capricorn
+
+# 11 4 2
+Image = Leo2.png
+Result = Sagittarius
+
+# 11 0 3
+Image = Aries3.png
+Result = Aquarius
+
+# 11 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 11 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 11 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 11 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 11 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 11 0 6
+Image = Aries6.png
+Result = Pisces
+
+# 11 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 11 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 11 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 11 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 11 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 11 5 9
+Image = Virgo9.png
+Result = Capricorn
+
+# 11 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 11 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 11 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 11 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 11 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 11 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 11 8 11
+Image = Sagittarius11.png
+Result = Aquarius
+
+# 11 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 11 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 11 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 11 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 11 8 13
+Image = Sagittarius13.png
+Result = Libra
+
+# 11 9 13
+Image = Capricorn13.png
+Result = Scorpio
+
+# 11 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 11 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 11 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 11 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 11 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 11 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 11 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 11 4 17
+Image = Leo17.png
+Result = Libra
+
+# 11 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 11 0 18
+Image = Aries18.png
+Result = Libra
+
+# 11 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 11 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 11 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 11 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 11 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 12 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 12 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 12 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 12 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 12 4 3
+Image = Leo3.png
+Result = Libra
+
+# 12 0 4
+Image = Aries4.png
+Result = Libra
+
+# 12 0 5
+Image = Aries5.png
+Result = Scorpio
+
+# 12 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 12 4 6
+Image = Leo6.png
+Result = Libra
+
+# 12 9 6
+Image = Capricorn6.png
+Result = Scorpio
+
+# 12 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 12 6 7
+Image = Libra7.png
+Result = Pisces
+
+# 12 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 12 1 8
+Image = Taurus8.png
+Result = Pisces
+
+# 12 0 9
+Image = Aries9.png
+Result = Capricorn
+
+# 12 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 12 5 9
+Image = Virgo9.png
+Result = Scorpio
+
+# 12 6 9
+Image = Libra9.png
+Result = Pisces
+
+# 12 9 9
+Image = Capricorn9.png
+Result = Aquarius
+
+# 12 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 12 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 12 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 12 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 12 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 12 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 12 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 12 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 12 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 12 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 12 0 14
+Image = Aries14.png
+Result = Libra
+
+# 12 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 12 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 12 8 14
+Image = Sagittarius14.png
+Result = Capricorn
+
+# 12 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 12 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 12 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 12 4 17
+Image = Leo17.png
+Result = Pisces
+
+# 12 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 12 0 18
+Image = Aries18.png
+Result = Libra
+
+# 12 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 12 0 19
+Image = Aries19.png
+Result = Capricorn
+
+# 12 1 19
+Image = Taurus19.png
+Result = Scorpio
+
+# 12 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 13 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 13 3 1
+Image = Cancer1.png
+Result = Pisces
+
+# 13 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 13 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 13 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 13 0 4
+Image = Aries4.png
+Result = Scorpio
+
+# 13 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 13 6 4
+Image = Libra4.png
+Result = Aquarius
+
+# 13 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 13 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 13 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 13 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 13 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 13 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 13 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 13 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 13 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 13 0 10
+Image = Aries10.png
+Result = Scorpio
+
+# 13 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 13 0 11
+Image = Aries11.png
+Result = Pisces
+
+# 13 1 11
+Image = Taurus11.png
+Result = Aquarius
+
+# 13 5 11
+Image = Virgo11.png
+Result = Capricorn
+
+# 13 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 13 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 13 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 13 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 13 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 13 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 13 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 13 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 13 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 13 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 13 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 13 0 16
+Image = Aries16.png
+Result = Capricorn
+
+# 13 0 17
+Image = Aries17.png
+Result = Pisces
+
+# 13 4 17
+Image = Leo17.png
+Result = Pisces
+
+# 13 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 13 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 13 0 18
+Image = Aries18.png
+Result = Libra
+
+# 13 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 13 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 13 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 13 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 13 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 14 2 1
+Image = Gemini1.png
+Result = Libra
+
+# 14 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 14 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 14 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 14 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 14 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 14 0 4
+Image = Aries4.png
+Result = Libra
+
+# 14 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 14 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 14 0 5
+Image = Aries5.png
+Result = Aquarius
+
+# 14 0 6
+Image = Aries6.png
+Result = Scorpio
+
+# 14 4 6
+Image = Leo6.png
+Result = Libra
+
+# 14 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 14 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 14 6 8
+Image = Libra8.png
+Result = Pisces
+
+# 14 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 14 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 14 5 9
+Image = Virgo9.png
+Result = Scorpio
+
+# 14 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 14 9 9
+Image = Capricorn9.png
+Result = Aquarius
+
+# 14 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 14 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 14 7 10
+Image = Scorpio10.png
+Result = Capricorn
+
+# 14 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 14 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 14 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 14 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 14 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 14 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 14 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 14 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 14 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 14 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 14 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 14 4 14
+Image = Leo14.png
+Result = Libra
+
+# 14 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 14 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 14 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 14 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 14 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 14 4 17
+Image = Leo17.png
+Result = Libra
+
+# 14 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 14 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 14 0 18
+Image = Aries18.png
+Result = Capricorn
+
+# 14 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 14 0 19
+Image = Aries19.png
+Result = Virgo
+
+# 14 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 14 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 15 2 1
+Image = Gemini1.png
+Result = Pisces
+
+# 15 3 1
+Image = Cancer1.png
+Result = Capricorn
+
+# 15 4 2
+Image = Leo2.png
+Result = Sagittarius
+
+# 15 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 15 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 15 5 3
+Image = Virgo3.png
+Result = Pisces
+
+# 15 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 15 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 15 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 15 1 6
+Image = Taurus6.png
+Result = Virgo
+
+# 15 4 6
+Image = Leo6.png
+Result = Pisces
+
+# 15 9 6
+Image = Capricorn6.png
+Result = Scorpio
+
+# 15 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 15 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 15 1 8
+Image = Taurus8.png
+Result = Pisces
+
+# 15 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 15 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 15 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 15 6 9
+Image = Libra9.png
+Result = Pisces
+
+# 15 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 15 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 15 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 15 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 15 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 15 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 15 6 11
+Image = Libra11.png
+Result = Aquarius
+
+# 15 8 11
+Image = Sagittarius11.png
+Result = Aquarius
+
+# 15 0 12
+Image = Aries12.png
+Result = Capricorn
+
+# 15 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 15 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 15 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 15 8 13
+Image = Sagittarius13.png
+Result = Libra
+
+# 15 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 15 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 15 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 15 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 15 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 15 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 15 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 15 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 15 0 18
+Image = Aries18.png
+Result = Libra
+
+# 15 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 15 0 19
+Image = Aries19.png
+Result = Capricorn
+
+# 15 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 15 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 16 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 16 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 16 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 16 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 16 4 3
+Image = Leo3.png
+Result = Libra
+
+# 16 0 4
+Image = Aries4.png
+Result = Scorpio
+
+# 16 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 16 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 16 0 6
+Image = Aries6.png
+Result = Capricorn
+
+# 16 1 6
+Image = Taurus6.png
+Result = Aquarius
+
+# 16 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 16 9 6
+Image = Capricorn6.png
+Result = Scorpio
+
+# 16 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 16 6 7
+Image = Libra7.png
+Result = Cancer
+
+# 16 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 16 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 16 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 16 5 9
+Image = Virgo9.png
+Result = Libra
+
+# 16 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 16 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 16 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 16 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 16 7 10
+Image = Scorpio10.png
+Result = Pisces
+
+# 16 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 16 0 11
+Image = Aries11.png
+Result = Pisces
+
+# 16 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 16 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 16 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 16 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 16 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 16 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 16 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 16 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 16 2 14
+Image = Gemini14.png
+Result = Pisces
+
+# 16 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 16 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 16 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 16 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 16 0 17
+Image = Aries17.png
+Result = Pisces
+
+# 16 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 16 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 16 0 18
+Image = Aries18.png
+Result = Libra
+
+# 16 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 16 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 16 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 16 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 16 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 17 2 1
+Image = Gemini1.png
+Result = Libra
+
+# 17 3 1
+Image = Cancer1.png
+Result = Capricorn
+
+# 17 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 17 0 3
+Image = Aries3.png
+Result = Virgo
+
+# 17 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 17 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 17 0 4
+Image = Aries4.png
+Result = Libra
+
+# 17 0 5
+Image = Aries5.png
+Result = Scorpio
+
+# 17 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 17 1 6
+Image = Taurus6.png
+Result = Capricorn
+
+# 17 4 6
+Image = Leo6.png
+Result = Libra
+
+# 17 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 17 6 7
+Image = Libra7.png
+Result = Pisces
+
+# 17 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 17 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 17 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 17 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 17 6 9
+Image = Libra9.png
+Result = Cancer
+
+# 17 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 17 0 10
+Image = Aries10.png
+Result = Scorpio
+
+# 17 7 10
+Image = Scorpio10.png
+Result = Pisces
+
+# 17 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 17 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 17 1 11
+Image = Taurus11.png
+Result = Scorpio
+
+# 17 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 17 6 11
+Image = Libra11.png
+Result = Aquarius
+
+# 17 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 17 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 17 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 17 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 17 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 17 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 17 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 17 4 14
+Image = Leo14.png
+Result = Capricorn
+
+# 17 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 17 8 14
+Image = Sagittarius14.png
+Result = Capricorn
+
+# 17 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 17 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 17 0 16
+Image = Aries16.png
+Result = Capricorn
+
+# 17 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 17 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 17 4 17
+Image = Leo17.png
+Result = Libra
+
+# 17 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 17 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 17 0 18
+Image = Aries18.png
+Result = Libra
+
+# 17 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 17 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 17 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 18 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 18 3 1
+Image = Cancer1.png
+Result = Pisces
+
+# 18 4 2
+Image = Leo2.png
+Result = Sagittarius
+
+# 18 0 3
+Image = Aries3.png
+Result = Aquarius
+
+# 18 4 3
+Image = Leo3.png
+Result = Sagittarius
+
+# 18 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 18 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 18 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 18 0 6
+Image = Aries6.png
+Result = Scorpio
+
+# 18 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 18 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 18 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 18 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 18 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 18 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 18 6 9
+Image = Libra9.png
+Result = Pisces
+
+# 18 9 9
+Image = Capricorn9.png
+Result = Aquarius
+
+# 18 0 10
+Image = Aries10.png
+Result = Scorpio
+
+# 18 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 18 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 18 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 18 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 18 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 18 8 11
+Image = Sagittarius11.png
+Result = Aquarius
+
+# 18 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 18 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 18 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 18 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 18 8 13
+Image = Sagittarius13.png
+Result = Libra
+
+# 18 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 18 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 18 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 18 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 18 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 18 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 18 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 18 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 18 0 18
+Image = Aries18.png
+Result = Libra
+
+# 18 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 18 0 19
+Image = Aries19.png
+Result = Capricorn
+
+# 18 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 18 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 19 2 1
+Image = Gemini1.png
+Result = Pisces
+
+# 19 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 19 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 19 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 19 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 19 0 4
+Image = Aries4.png
+Result = Libra
+
+# 19 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 19 0 5
+Image = Aries5.png
+Result = Aquarius
+
+# 19 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 19 4 6
+Image = Leo6.png
+Result = Libra
+
+# 19 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 19 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 19 1 8
+Image = Taurus8.png
+Result = Pisces
+
+# 19 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 19 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 19 5 9
+Image = Virgo9.png
+Result = Scorpio
+
+# 19 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 19 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 19 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 19 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 19 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 19 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 19 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 19 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 19 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 19 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 19 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 19 5 13
+Image = Virgo13.png
+Result = Capricorn
+
+# 19 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 19 1 14
+Image = Taurus14.png
+Result = Pisces
+
+# 19 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 19 4 14
+Image = Leo14.png
+Result = Libra
+
+# 19 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 19 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 19 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 19 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 19 0 16
+Image = Aries16.png
+Result = Capricorn
+
+# 19 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 19 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 19 4 17
+Image = Leo17.png
+Result = Aquarius
+
+# 19 5 17
+Image = Virgo17.png
+Result = Pisces
+
+# 19 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 19 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 19 0 18
+Image = Aries18.png
+Result = Libra
+
+# 19 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 19 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 19 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 19 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 20 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 20 3 1
+Image = Cancer1.png
+Result = Capricorn
+
+# 20 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 20 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 20 4 3
+Image = Leo3.png
+Result = Libra
+
+# 20 5 3
+Image = Virgo3.png
+Result = Capricorn
+
+# 20 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 20 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 20 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 20 0 6
+Image = Aries6.png
+Result = Pisces
+
+# 20 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 20 9 6
+Image = Capricorn6.png
+Result = Scorpio
+
+# 20 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 20 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 20 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 20 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 20 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 20 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 20 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 20 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 20 0 11
+Image = Aries11.png
+Result = Pisces
+
+# 20 1 11
+Image = Taurus11.png
+Result = Scorpio
+
+# 20 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 20 6 11
+Image = Libra11.png
+Result = Aquarius
+
+# 20 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 20 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 20 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 20 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 20 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 20 9 13
+Image = Capricorn13.png
+Result = Scorpio
+
+# 20 0 14
+Image = Aries14.png
+Result = Libra
+
+# 20 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 20 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 20 8 14
+Image = Sagittarius14.png
+Result = Aquarius
+
+# 20 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 20 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 20 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 20 4 17
+Image = Leo17.png
+Result = Pisces
+
+# 20 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 20 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 20 0 18
+Image = Aries18.png
+Result = Libra
+
+# 20 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 20 0 19
+Image = Aries19.png
+Result = Capricorn
+
+# 20 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 20 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 21 2 1
+Image = Gemini1.png
+Result = Libra
+
+# 21 3 1
+Image = Cancer1.png
+Result = Pisces
+
+# 21 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 21 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 21 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 21 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 21 0 4
+Image = Aries4.png
+Result = Scorpio
+
+# 21 0 6
+Image = Aries6.png
+Result = Capricorn
+
+# 21 4 6
+Image = Leo6.png
+Result = Libra
+
+# 21 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 21 6 7
+Image = Libra7.png
+Result = Pisces
+
+# 21 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 21 1 8
+Image = Taurus8.png
+Result = Pisces
+
+# 21 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 21 5 9
+Image = Virgo9.png
+Result = Libra
+
+# 21 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 21 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 21 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 21 7 10
+Image = Scorpio10.png
+Result = Capricorn
+
+# 21 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 21 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 21 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 21 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 21 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 21 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 21 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 21 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 21 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 21 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 21 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 21 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 21 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 21 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 21 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 21 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 21 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 21 4 17
+Image = Leo17.png
+Result = Libra
+
+# 21 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 21 0 18
+Image = Aries18.png
+Result = Scorpio
+
+# 21 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 21 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 21 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 21 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 21 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 22 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 22 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 22 4 2
+Image = Leo2.png
+Result = Sagittarius
+
+# 22 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 22 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 22 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 22 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 22 6 4
+Image = Libra4.png
+Result = Aquarius
+
+# 22 0 5
+Image = Aries5.png
+Result = Scorpio
+
+# 22 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 22 1 6
+Image = Taurus6.png
+Result = Capricorn
+
+# 22 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 22 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 22 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 22 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 22 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 22 5 9
+Image = Virgo9.png
+Result = Scorpio
+
+# 22 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 22 0 10
+Image = Aries10.png
+Result = Scorpio
+
+# 22 7 10
+Image = Scorpio10.png
+Result = Pisces
+
+# 22 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 22 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 22 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 22 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 22 6 11
+Image = Libra11.png
+Result = Aquarius
+
+# 22 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 22 0 12
+Image = Aries12.png
+Result = Capricorn
+
+# 22 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 22 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 22 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 22 8 13
+Image = Sagittarius13.png
+Result = Libra
+
+# 22 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 22 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 22 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 22 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 22 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 22 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 22 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 22 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 22 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 22 0 18
+Image = Aries18.png
+Result = Libra
+
+# 22 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 22 0 19
+Image = Aries19.png
+Result = Virgo
+
+# 22 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 22 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 23 2 1
+Image = Gemini1.png
+Result = Pisces
+
+# 23 3 1
+Image = Cancer1.png
+Result = Capricorn
+
+# 23 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 23 0 3
+Image = Aries3.png
+Result = Aquarius
+
+# 23 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 23 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 23 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 23 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 23 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 23 4 6
+Image = Leo6.png
+Result = Pisces
+
+# 23 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 23 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 23 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 23 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 23 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 23 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 23 9 9
+Image = Capricorn9.png
+Result = Aquarius
+
+# 23 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 23 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 23 7 10
+Image = Scorpio10.png
+Result = Pisces
+
+# 23 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 23 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 23 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 23 5 11
+Image = Virgo11.png
+Result = Capricorn
+
+# 23 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 23 0 12
+Image = Aries12.png
+Result = Sagittarius
+
+# 23 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 23 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 23 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 23 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 23 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 23 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 23 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 23 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 23 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 23 0 16
+Image = Aries16.png
+Result = Capricorn
+
+# 23 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 23 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 23 0 18
+Image = Aries18.png
+Result = Libra
+
+# 23 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 23 0 19
+Image = Aries19.png
+Result = Libra
+
+# 23 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 23 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 24 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 24 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 24 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 24 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 24 4 3
+Image = Leo3.png
+Result = Libra
+
+# 24 0 4
+Image = Aries4.png
+Result = Scorpio
+
+# 24 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 24 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 24 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 24 1 6
+Image = Taurus6.png
+Result = Virgo
+
+# 24 4 6
+Image = Leo6.png
+Result = Libra
+
+# 24 6 6
+Image = Libra6.png
+Result = Pisces
+
+# 24 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 24 6 7
+Image = Libra7.png
+Result = Pisces
+
+# 24 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 24 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 24 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 24 5 9
+Image = Virgo9.png
+Result = Capricorn
+
+# 24 6 9
+Image = Libra9.png
+Result = Pisces
+
+# 24 9 9
+Image = Capricorn9.png
+Result = Aquarius
+
+# 24 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 24 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 24 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 24 0 11
+Image = Aries11.png
+Result = Pisces
+
+# 24 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 24 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 24 8 11
+Image = Sagittarius11.png
+Result = Aquarius
+
+# 24 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 24 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 24 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 24 5 13
+Image = Virgo13.png
+Result = Libra
+
+# 24 9 13
+Image = Capricorn13.png
+Result = Scorpio
+
+# 24 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 24 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 24 4 14
+Image = Leo14.png
+Result = Libra
+
+# 24 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 24 8 14
+Image = Sagittarius14.png
+Result = Capricorn
+
+# 24 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 24 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 24 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 24 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 24 4 17
+Image = Leo17.png
+Result = Libra
+
+# 24 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 24 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 24 0 18
+Image = Aries18.png
+Result = Libra
+
+# 24 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 24 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 24 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 24 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 25 2 1
+Image = Gemini1.png
+Result = Pisces
+
+# 25 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 25 4 2
+Image = Leo2.png
+Result = Sagittarius
+
+# 25 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 25 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 25 0 4
+Image = Aries4.png
+Result = Libra
+
+# 25 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 25 0 5
+Image = Aries5.png
+Result = Scorpio
+
+# 25 0 6
+Image = Aries6.png
+Result = Capricorn
+
+# 25 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 25 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 25 6 7
+Image = Libra7.png
+Result = Cancer
+
+# 25 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 25 1 8
+Image = Taurus8.png
+Result = Pisces
+
+# 25 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 25 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 25 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 25 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 25 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 25 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 25 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 25 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 25 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 25 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 25 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 25 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 25 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 25 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 25 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 25 8 13
+Image = Sagittarius13.png
+Result = Libra
+
+# 25 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 25 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 25 4 14
+Image = Leo14.png
+Result = Capricorn
+
+# 25 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 25 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 25 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 25 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 25 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 25 4 17
+Image = Leo17.png
+Result = Pisces
+
+# 25 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 25 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 25 0 18
+Image = Aries18.png
+Result = Capricorn
+
+# 25 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 25 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 25 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 25 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 26 2 1
+Image = Gemini1.png
+Result = Libra
+
+# 26 3 1
+Image = Cancer1.png
+Result = Capricorn
+
+# 26 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 26 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 26 4 3
+Image = Leo3.png
+Result = Sagittarius
+
+# 26 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 26 0 4
+Image = Aries4.png
+Result = Scorpio
+
+# 26 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 26 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 26 4 6
+Image = Leo6.png
+Result = Libra
+
+# 26 9 6
+Image = Capricorn6.png
+Result = Scorpio
+
+# 26 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 26 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 26 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 26 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 26 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 26 6 9
+Image = Libra9.png
+Result = Pisces
+
+# 26 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 26 0 10
+Image = Aries10.png
+Result = Scorpio
+
+# 26 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 26 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 26 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 26 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 26 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 26 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 26 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 26 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 26 0 14
+Image = Aries14.png
+Result = Libra
+
+# 26 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 26 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 26 8 14
+Image = Sagittarius14.png
+Result = Aquarius
+
+# 26 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 26 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 26 0 16
+Image = Aries16.png
+Result = Capricorn
+
+# 26 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 26 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 26 0 18
+Image = Aries18.png
+Result = Libra
+
+# 26 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 26 0 19
+Image = Aries19.png
+Result = Scorpio
+
+# 26 1 19
+Image = Taurus19.png
+Result = Scorpio
+
+# 26 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 26 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 27 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 27 3 1
+Image = Cancer1.png
+Result = Pisces
+
+# 27 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 27 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 27 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 27 0 4
+Image = Aries4.png
+Result = Libra
+
+# 27 0 5
+Image = Aries5.png
+Result = Scorpio
+
+# 27 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 27 4 6
+Image = Leo6.png
+Result = Libra
+
+# 27 9 6
+Image = Capricorn6.png
+Result = Scorpio
+
+# 27 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 27 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 27 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 27 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 27 5 9
+Image = Virgo9.png
+Result = Libra
+
+# 27 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 27 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 27 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 27 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 27 7 10
+Image = Scorpio10.png
+Result = Pisces
+
+# 27 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 27 0 11
+Image = Aries11.png
+Result = Pisces
+
+# 27 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 27 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 27 6 11
+Image = Libra11.png
+Result = Aquarius
+
+# 27 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 27 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 27 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 27 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 27 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 27 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 27 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 27 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 27 8 14
+Image = Sagittarius14.png
+Result = Capricorn
+
+# 27 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 27 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 27 0 16
+Image = Aries16.png
+Result = Capricorn
+
+# 27 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 27 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 27 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 27 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 27 0 18
+Image = Aries18.png
+Result = Capricorn
+
+# 27 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 27 0 19
+Image = Aries19.png
+Result = Virgo
+
+# 27 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 27 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 28 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 28 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 28 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 28 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 28 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 28 5 3
+Image = Virgo3.png
+Result = Capricorn
+
+# 28 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 28 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 28 6 4
+Image = Libra4.png
+Result = Aquarius
+
+# 28 0 5
+Image = Aries5.png
+Result = Scorpio
+
+# 28 0 6
+Image = Aries6.png
+Result = Scorpio
+
+# 28 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 28 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 28 6 7
+Image = Libra7.png
+Result = Pisces
+
+# 28 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 28 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 28 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 28 5 9
+Image = Virgo9.png
+Result = Scorpio
+
+# 28 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 28 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 28 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 28 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 28 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 28 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 28 6 11
+Image = Libra11.png
+Result = Aquarius
+
+# 28 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 28 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 28 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 28 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 28 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 28 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 28 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 28 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 28 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 28 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 28 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 28 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 28 4 17
+Image = Leo17.png
+Result = Libra
+
+# 28 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 28 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 28 0 18
+Image = Aries18.png
+Result = Libra
+
+# 28 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 28 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 28 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 28 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 29 2 1
+Image = Gemini1.png
+Result = Pisces
+
+# 29 3 1
+Image = Cancer1.png
+Result = Capricorn
+
+# 29 4 2
+Image = Leo2.png
+Result = Sagittarius
+
+# 29 0 3
+Image = Aries3.png
+Result = Virgo
+
+# 29 4 3
+Image = Leo3.png
+Result = Libra
+
+# 29 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 29 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 29 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 29 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 29 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 29 4 6
+Image = Leo6.png
+Result = Pisces
+
+# 29 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 29 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 29 6 8
+Image = Libra8.png
+Result = Pisces
+
+# 29 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 29 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 29 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 29 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 29 9 9
+Image = Capricorn9.png
+Result = Aquarius
+
+# 29 0 10
+Image = Aries10.png
+Result = Scorpio
+
+# 29 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 29 7 10
+Image = Scorpio10.png
+Result = Capricorn
+
+# 29 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 29 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 29 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 29 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 29 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 29 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 29 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 29 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 29 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 29 8 13
+Image = Sagittarius13.png
+Result = Libra
+
+# 29 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 29 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 29 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 29 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 29 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 29 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 29 0 17
+Image = Aries17.png
+Result = Pisces
+
+# 29 4 17
+Image = Leo17.png
+Result = Pisces
+
+# 29 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 29 0 18
+Image = Aries18.png
+Result = Libra
+
+# 29 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 29 0 19
+Image = Aries19.png
+Result = Capricorn
+
+# 29 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 29 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 30 2 1
+Image = Gemini1.png
+Result = Libra
+
+# 30 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 30 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 30 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 30 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 30 0 4
+Image = Aries4.png
+Result = Libra
+
+# 30 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 30 0 5
+Image = Aries5.png
+Result = Sagittarius
+
+# 30 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 30 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 30 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 30 6 7
+Image = Libra7.png
+Result = Pisces
+
+# 30 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 30 1 8
+Image = Taurus8.png
+Result = Pisces
+
+# 30 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 30 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 30 5 9
+Image = Virgo9.png
+Result = Scorpio
+
+# 30 6 9
+Image = Libra9.png
+Result = Pisces
+
+# 30 9 9
+Image = Capricorn9.png
+Result = Aquarius
+
+# 30 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 30 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 30 0 11
+Image = Aries11.png
+Result = Pisces
+
+# 30 1 11
+Image = Taurus11.png
+Result = Scorpio
+
+# 30 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 30 8 11
+Image = Sagittarius11.png
+Result = Aquarius
+
+# 30 0 12
+Image = Aries12.png
+Result = Capricorn
+
+# 30 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 30 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 30 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 30 9 13
+Image = Capricorn13.png
+Result = Scorpio
+
+# 30 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 30 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 30 4 14
+Image = Leo14.png
+Result = Libra
+
+# 30 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 30 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 30 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 30 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 30 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 30 0 17
+Image = Aries17.png
+Result = Pisces
+
+# 30 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 30 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 30 0 18
+Image = Aries18.png
+Result = Libra
+
+# 30 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 30 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 30 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 30 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 31 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 31 3 1
+Image = Cancer1.png
+Result = Capricorn
+
+# 31 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 31 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 31 4 3
+Image = Leo3.png
+Result = Libra
+
+# 31 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 31 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 31 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 31 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 31 4 6
+Image = Leo6.png
+Result = Libra
+
+# 31 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 31 6 7
+Image = Libra7.png
+Result = Cancer
+
+# 31 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 31 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 31 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 31 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 31 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 31 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 31 0 10
+Image = Aries10.png
+Result = Scorpio
+
+# 31 7 10
+Image = Scorpio10.png
+Result = Pisces
+
+# 31 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 31 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 31 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 31 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 31 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 31 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 31 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 31 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 31 5 13
+Image = Virgo13.png
+Result = Capricorn
+
+# 31 8 13
+Image = Sagittarius13.png
+Result = Libra
+
+# 31 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 31 1 14
+Image = Taurus14.png
+Result = Pisces
+
+# 31 2 14
+Image = Gemini14.png
+Result = Pisces
+
+# 31 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 31 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 31 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 31 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 31 0 16
+Image = Aries16.png
+Result = Capricorn
+
+# 31 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 31 4 17
+Image = Leo17.png
+Result = Libra
+
+# 31 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 31 0 18
+Image = Aries18.png
+Result = Libra
+
+# 31 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 31 0 19
+Image = Aries19.png
+Result = Capricorn
+
+# 31 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 31 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 32 2 1
+Image = Gemini1.png
+Result = Pisces
+
+# 32 3 1
+Image = Cancer1.png
+Result = Pisces
+
+# 32 4 2
+Image = Leo2.png
+Result = Sagittarius
+
+# 32 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 32 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 32 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 32 0 4
+Image = Aries4.png
+Result = Scorpio
+
+# 32 0 5
+Image = Aries5.png
+Result = Aquarius
+
+# 32 0 6
+Image = Aries6.png
+Result = Capricorn
+
+# 32 1 6
+Image = Taurus6.png
+Result = Aquarius
+
+# 32 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 32 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 32 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 32 1 8
+Image = Taurus8.png
+Result = Pisces
+
+# 32 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 32 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 32 5 9
+Image = Virgo9.png
+Result = Libra
+
+# 32 6 9
+Image = Libra9.png
+Result = Cancer
+
+# 32 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 32 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 32 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 32 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 32 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 32 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 32 6 11
+Image = Libra11.png
+Result = Aquarius
+
+# 32 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 32 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 32 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 32 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 32 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 32 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 32 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 32 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 32 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 32 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 32 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 32 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 32 4 17
+Image = Leo17.png
+Result = Aquarius
+
+# 32 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 32 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 32 0 18
+Image = Aries18.png
+Result = Aquarius
+
+# 32 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 32 0 19
+Image = Aries19.png
+Result = Scorpio
+
+# 32 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 32 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 33 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 33 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 33 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 33 0 3
+Image = Aries3.png
+Result = Aquarius
+
+# 33 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 33 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 33 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 33 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 33 0 6
+Image = Aries6.png
+Result = Pisces
+
+# 33 1 6
+Image = Taurus6.png
+Result = Capricorn
+
+# 33 4 6
+Image = Leo6.png
+Result = Libra
+
+# 33 9 6
+Image = Capricorn6.png
+Result = Scorpio
+
+# 33 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 33 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 33 0 9
+Image = Aries9.png
+Result = Capricorn
+
+# 33 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 33 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 33 6 9
+Image = Libra9.png
+Result = Pisces
+
+# 33 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 33 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 33 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 33 0 11
+Image = Aries11.png
+Result = Pisces
+
+# 33 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 33 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 33 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 33 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 33 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 33 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 33 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 33 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 33 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 33 4 14
+Image = Leo14.png
+Result = Capricorn
+
+# 33 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 33 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 33 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 33 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 33 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 33 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 33 0 18
+Image = Aries18.png
+Result = Libra
+
+# 33 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 33 0 19
+Image = Aries19.png
+Result = Libra
+
+# 33 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 33 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 34 2 1
+Image = Gemini1.png
+Result = Pisces
+
+# 34 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 34 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 34 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 34 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 34 0 4
+Image = Aries4.png
+Result = Libra
+
+# 34 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 34 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 34 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 34 1 6
+Image = Taurus6.png
+Result = Virgo
+
+# 34 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 34 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 34 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 34 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 34 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 34 5 9
+Image = Virgo9.png
+Result = Scorpio
+
+# 34 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 34 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 34 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 34 7 10
+Image = Scorpio10.png
+Result = Capricorn
+
+# 34 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 34 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 34 1 11
+Image = Taurus11.png
+Result = Aquarius
+
+# 34 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 34 6 11
+Image = Libra11.png
+Result = Aquarius
+
+# 34 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 34 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 34 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 34 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 34 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 34 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 34 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 34 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 34 8 14
+Image = Sagittarius14.png
+Result = Capricorn
+
+# 34 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 34 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 34 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 34 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 34 4 17
+Image = Leo17.png
+Result = Pisces
+
+# 34 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 34 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 34 0 18
+Image = Aries18.png
+Result = Virgo
+
+# 34 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 34 0 19
+Image = Aries19.png
+Result = Libra
+
+# 34 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 34 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 34 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 35 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 35 3 1
+Image = Cancer1.png
+Result = Capricorn
+
+# 35 4 2
+Image = Leo2.png
+Result = Sagittarius
+
+# 35 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 35 4 3
+Image = Leo3.png
+Result = Libra
+
+# 35 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 35 0 4
+Image = Aries4.png
+Result = Scorpio
+
+# 35 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 35 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 35 0 5
+Image = Aries5.png
+Result = Scorpio
+
+# 35 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 35 4 6
+Image = Leo6.png
+Result = Libra
+
+# 35 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 35 6 7
+Image = Libra7.png
+Result = Pisces
+
+# 35 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 35 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 35 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 35 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 35 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 35 0 10
+Image = Aries10.png
+Result = Scorpio
+
+# 35 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 35 7 10
+Image = Scorpio10.png
+Result = Pisces
+
+# 35 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 35 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 35 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 35 5 11
+Image = Virgo11.png
+Result = Capricorn
+
+# 35 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 35 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 35 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 35 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 35 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 35 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 35 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 35 4 14
+Image = Leo14.png
+Result = Libra
+
+# 35 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 35 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 35 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 35 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 35 0 16
+Image = Aries16.png
+Result = Capricorn
+
+# 35 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 35 4 17
+Image = Leo17.png
+Result = Libra
+
+# 35 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 35 0 18
+Image = Aries18.png
+Result = Aquarius
+
+# 35 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 35 0 19
+Image = Aries19.png
+Result = Capricorn
+
+# 35 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 35 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 36 2 1
+Image = Gemini1.png
+Result = Libra
+
+# 36 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 36 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 36 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 36 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 36 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 36 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 36 6 4
+Image = Libra4.png
+Result = Aquarius
+
+# 36 0 6
+Image = Aries6.png
+Result = Scorpio
+
+# 36 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 36 9 6
+Image = Capricorn6.png
+Result = Scorpio
+
+# 36 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 36 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 36 1 8
+Image = Taurus8.png
+Result = Pisces
+
+# 36 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 36 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 36 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 36 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 36 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 36 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 36 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 36 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 36 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 36 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 36 8 11
+Image = Sagittarius11.png
+Result = Aquarius
+
+# 36 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 36 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 36 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 36 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 36 8 13
+Image = Sagittarius13.png
+Result = Libra
+
+# 36 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 36 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 36 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 36 8 14
+Image = Sagittarius14.png
+Result = Aquarius
+
+# 36 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 36 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 36 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 36 4 17
+Image = Leo17.png
+Result = Pisces
+
+# 36 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 36 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 36 0 18
+Image = Aries18.png
+Result = Libra
+
+# 36 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 36 0 19
+Image = Aries19.png
+Result = Libra
+
+# 36 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 36 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 37 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 37 3 1
+Image = Cancer1.png
+Result = Capricorn
+
+# 37 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 37 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 37 4 3
+Image = Leo3.png
+Result = Sagittarius
+
+# 37 5 3
+Image = Virgo3.png
+Result = Capricorn
+
+# 37 0 4
+Image = Aries4.png
+Result = Scorpio
+
+# 37 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 37 0 6
+Image = Aries6.png
+Result = Pisces
+
+# 37 4 6
+Image = Leo6.png
+Result = Libra
+
+# 37 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 37 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 37 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 37 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 37 5 9
+Image = Virgo9.png
+Result = Scorpio
+
+# 37 6 9
+Image = Libra9.png
+Result = Pisces
+
+# 37 9 9
+Image = Capricorn9.png
+Result = Aquarius
+
+# 37 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 37 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 37 0 11
+Image = Aries11.png
+Result = Pisces
+
+# 37 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 37 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 37 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 37 0 12
+Image = Aries12.png
+Result = Capricorn
+
+# 37 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 37 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 37 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 37 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 37 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 37 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 37 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 37 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 37 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 37 0 16
+Image = Aries16.png
+Result = Capricorn
+
+# 37 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 37 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 37 4 17
+Image = Leo17.png
+Result = Libra
+
+# 37 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 37 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 37 0 18
+Image = Aries18.png
+Result = Aquarius
+
+# 37 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 37 0 19
+Image = Aries19.png
+Result = Capricorn
+
+# 37 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 37 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 38 2 1
+Image = Gemini1.png
+Result = Libra
+
+# 38 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 38 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 38 0 3
+Image = Aries3.png
+Result = Virgo
+
+# 38 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 38 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 38 0 4
+Image = Aries4.png
+Result = Libra
+
+# 38 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 38 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 38 0 5
+Image = Aries5.png
+Result = Aquarius
+
+# 38 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 38 4 6
+Image = Leo6.png
+Result = Pisces
+
+# 38 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 38 6 7
+Image = Libra7.png
+Result = Pisces
+
+# 38 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 38 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 38 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 38 5 9
+Image = Virgo9.png
+Result = Scorpio
+
+# 38 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 38 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 38 0 10
+Image = Aries10.png
+Result = Scorpio
+
+# 38 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 38 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 38 1 11
+Image = Taurus11.png
+Result = Scorpio
+
+# 38 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 38 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 38 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 38 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 38 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 38 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 38 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 38 1 14
+Image = Taurus14.png
+Result = Pisces
+
+# 38 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 38 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 38 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 38 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 38 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 38 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 38 0 17
+Image = Aries17.png
+Result = Pisces
+
+# 38 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 38 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 38 0 18
+Image = Aries18.png
+Result = Libra
+
+# 38 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 38 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 38 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 38 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 38 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 39 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 39 3 1
+Image = Cancer1.png
+Result = Pisces
+
+# 39 4 2
+Image = Leo2.png
+Result = Sagittarius
+
+# 39 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 39 4 3
+Image = Leo3.png
+Result = Libra
+
+# 39 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 39 0 5
+Image = Aries5.png
+Result = Scorpio
+
+# 39 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 39 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 39 9 6
+Image = Capricorn6.png
+Result = Scorpio
+
+# 39 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 39 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 39 1 8
+Image = Taurus8.png
+Result = Pisces
+
+# 39 0 9
+Image = Aries9.png
+Result = Capricorn
+
+# 39 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 39 5 9
+Image = Virgo9.png
+Result = Libra
+
+# 39 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 39 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 39 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 39 7 10
+Image = Scorpio10.png
+Result = Pisces
+
+# 39 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 39 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 39 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 39 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 39 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 39 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 39 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 39 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 39 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 39 8 13
+Image = Sagittarius13.png
+Result = Libra
+
+# 39 0 14
+Image = Aries14.png
+Result = Libra
+
+# 39 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 39 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 39 8 14
+Image = Sagittarius14.png
+Result = Capricorn
+
+# 39 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 39 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 39 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 39 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 39 0 18
+Image = Aries18.png
+Result = Libra
+
+# 39 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 39 0 19
+Image = Aries19.png
+Result = Capricorn
+
+# 39 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 39 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 40 2 1
+Image = Gemini1.png
+Result = Pisces
+
+# 40 3 1
+Image = Cancer1.png
+Result = Capricorn
+
+# 40 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 40 0 3
+Image = Aries3.png
+Result = Aquarius
+
+# 40 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 40 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 40 0 5
+Image = Aries5.png
+Result = Scorpio
+
+# 40 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 40 1 6
+Image = Taurus6.png
+Result = Capricorn
+
+# 40 4 6
+Image = Leo6.png
+Result = Libra
+
+# 40 9 6
+Image = Capricorn6.png
+Result = Scorpio
+
+# 40 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 40 6 7
+Image = Libra7.png
+Result = Cancer
+
+# 40 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 40 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 40 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 40 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 40 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 40 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 40 0 10
+Image = Aries10.png
+Result = Scorpio
+
+# 40 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 40 7 10
+Image = Scorpio10.png
+Result = Pisces
+
+# 40 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 40 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 40 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 40 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 40 6 11
+Image = Libra11.png
+Result = Aquarius
+
+# 40 8 11
+Image = Sagittarius11.png
+Result = Aquarius
+
+# 40 0 12
+Image = Aries12.png
+Result = Sagittarius
+
+# 40 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 40 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 40 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 40 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 40 2 14
+Image = Gemini14.png
+Result = Pisces
+
+# 40 4 14
+Image = Leo14.png
+Result = Libra
+
+# 40 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 40 8 14
+Image = Sagittarius14.png
+Result = Aquarius
+
+# 40 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 40 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 40 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 40 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 40 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 40 0 18
+Image = Aries18.png
+Result = Libra
+
+# 40 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 40 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 40 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 40 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 41 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 41 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 41 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 41 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 41 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 41 0 4
+Image = Aries4.png
+Result = Libra
+
+# 41 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 41 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 41 0 6
+Image = Aries6.png
+Result = Capricorn
+
+# 41 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 41 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 41 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 41 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 41 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 41 5 9
+Image = Virgo9.png
+Result = Capricorn
+
+# 41 6 9
+Image = Libra9.png
+Result = Pisces
+
+# 41 9 9
+Image = Capricorn9.png
+Result = Aquarius
+
+# 41 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 41 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 41 0 11
+Image = Aries11.png
+Result = Pisces
+
+# 41 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 41 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 41 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 41 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 41 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 41 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 41 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 41 9 13
+Image = Capricorn13.png
+Result = Scorpio
+
+# 41 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 41 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 41 4 14
+Image = Leo14.png
+Result = Capricorn
+
+# 41 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 41 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 41 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 41 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 41 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 41 4 17
+Image = Leo17.png
+Result = Libra
+
+# 41 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 41 0 18
+Image = Aries18.png
+Result = Virgo
+
+# 41 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 41 0 19
+Image = Aries19.png
+Result = Libra
+
+# 41 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 41 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 42 2 1
+Image = Gemini1.png
+Result = Pisces
+
+# 42 3 1
+Image = Cancer1.png
+Result = Pisces
+
+# 42 4 2
+Image = Leo2.png
+Result = Sagittarius
+
+# 42 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 42 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 42 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 42 0 4
+Image = Aries4.png
+Result = Scorpio
+
+# 42 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 42 6 4
+Image = Libra4.png
+Result = Aquarius
+
+# 42 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 42 1 6
+Image = Taurus6.png
+Result = Virgo
+
+# 42 4 6
+Image = Leo6.png
+Result = Libra
+
+# 42 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 42 6 7
+Image = Libra7.png
+Result = Pisces
+
+# 42 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 42 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 42 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 42 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 42 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 42 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 42 0 10
+Image = Aries10.png
+Result = Libra
+
+# 42 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 42 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 42 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 42 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 42 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 42 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 42 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 42 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 42 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 42 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 42 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 42 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 42 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 42 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 42 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 42 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 42 0 16
+Image = Aries16.png
+Result = Capricorn
+
+# 42 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 42 4 17
+Image = Leo17.png
+Result = Pisces
+
+# 42 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 42 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 42 0 18
+Image = Aries18.png
+Result = Aquarius
+
+# 42 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 42 0 19
+Image = Aries19.png
+Result = Capricorn
+
+# 42 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 42 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 42 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 43 2 1
+Image = Gemini1.png
+Result = Libra
+
+# 43 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 43 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 43 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 43 4 3
+Image = Leo3.png
+Result = Libra
+
+# 43 5 3
+Image = Virgo3.png
+Result = Capricorn
+
+# 43 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 43 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 43 0 6
+Image = Aries6.png
+Result = Scorpio
+
+# 43 1 6
+Image = Taurus6.png
+Result = Aquarius
+
+# 43 4 6
+Image = Leo6.png
+Result = Libra
+
+# 43 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 43 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 43 1 8
+Image = Taurus8.png
+Result = Pisces
+
+# 43 6 8
+Image = Libra8.png
+Result = Pisces
+
+# 43 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 43 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 43 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 43 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 43 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 43 7 10
+Image = Scorpio10.png
+Result = Capricorn
+
+# 43 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 43 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 43 1 11
+Image = Taurus11.png
+Result = Scorpio
+
+# 43 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 43 6 11
+Image = Libra11.png
+Result = Aquarius
+
+# 43 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 43 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 43 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 43 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 43 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 43 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 43 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 43 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 43 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 43 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 43 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 43 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 43 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 43 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 43 0 18
+Image = Aries18.png
+Result = Libra
+
+# 43 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 43 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 43 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 44 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 44 3 1
+Image = Cancer1.png
+Result = Capricorn
+
+# 44 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 44 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 44 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 44 0 4
+Image = Aries4.png
+Result = Scorpio
+
+# 44 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 44 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 44 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 44 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 44 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 44 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 44 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 44 5 9
+Image = Virgo9.png
+Result = Libra
+
+# 44 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 44 9 9
+Image = Capricorn9.png
+Result = Aquarius
+
+# 44 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 44 7 10
+Image = Scorpio10.png
+Result = Pisces
+
+# 44 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 44 0 11
+Image = Aries11.png
+Result = Pisces
+
+# 44 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 44 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 44 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 44 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 44 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 44 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 44 5 13
+Image = Virgo13.png
+Result = Capricorn
+
+# 44 9 13
+Image = Capricorn13.png
+Result = Scorpio
+
+# 44 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 44 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 44 4 14
+Image = Leo14.png
+Result = Libra
+
+# 44 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 44 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 44 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 44 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 44 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 44 4 17
+Image = Leo17.png
+Result = Aquarius
+
+# 44 5 17
+Image = Virgo17.png
+Result = Pisces
+
+# 44 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 44 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 44 0 18
+Image = Aries18.png
+Result = Libra
+
+# 44 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 44 0 19
+Image = Aries19.png
+Result = Scorpio
+
+# 44 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 44 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 44 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 45 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 45 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 45 4 2
+Image = Leo2.png
+Result = Sagittarius
+
+# 45 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 45 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 45 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 45 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 45 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 45 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 45 1 6
+Image = Taurus6.png
+Result = Capricorn
+
+# 45 4 6
+Image = Leo6.png
+Result = Pisces
+
+# 45 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 45 6 7
+Image = Libra7.png
+Result = Pisces
+
+# 45 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 45 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 45 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 45 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 45 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 45 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 45 7 10
+Image = Scorpio10.png
+Result = Capricorn
+
+# 45 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 45 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 45 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 45 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 45 8 11
+Image = Sagittarius11.png
+Result = Aquarius
+
+# 45 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 45 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 45 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 45 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 45 8 13
+Image = Sagittarius13.png
+Result = Libra
+
+# 45 0 14
+Image = Aries14.png
+Result = Libra
+
+# 45 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 45 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 45 8 14
+Image = Sagittarius14.png
+Result = Capricorn
+
+# 45 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 45 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 45 0 16
+Image = Aries16.png
+Result = Capricorn
+
+# 45 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 45 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 45 4 17
+Image = Leo17.png
+Result = Libra
+
+# 45 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 45 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 45 0 18
+Image = Aries18.png
+Result = Libra
+
+# 45 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 45 0 19
+Image = Aries19.png
+Result = Virgo
+
+# 45 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 45 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 46 2 1
+Image = Gemini1.png
+Result = Libra
+
+# 46 3 1
+Image = Cancer1.png
+Result = Pisces
+
+# 46 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 46 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 46 4 3
+Image = Leo3.png
+Result = Libra
+
+# 46 5 3
+Image = Virgo3.png
+Result = Scorpio
+
+# 46 0 4
+Image = Aries4.png
+Result = Scorpio
+
+# 46 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 46 0 5
+Image = Aries5.png
+Result = Scorpio
+
+# 46 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 46 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 46 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 46 6 7
+Image = Libra7.png
+Result = Cancer
+
+# 46 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 46 1 8
+Image = Taurus8.png
+Result = Pisces
+
+# 46 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 46 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 46 5 9
+Image = Virgo9.png
+Result = Scorpio
+
+# 46 6 9
+Image = Libra9.png
+Result = Pisces
+
+# 46 9 9
+Image = Capricorn9.png
+Result = Aquarius
+
+# 46 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 46 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 46 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 46 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 46 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 46 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 46 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 46 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 46 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 46 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 46 8 13
+Image = Sagittarius13.png
+Result = Libra
+
+# 46 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 46 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 46 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 46 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 46 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 46 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 46 0 17
+Image = Aries17.png
+Result = Pisces
+
+# 46 4 17
+Image = Leo17.png
+Result = Pisces
+
+# 46 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 46 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 46 0 18
+Image = Aries18.png
+Result = Capricorn
+
+# 46 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 46 0 19
+Image = Aries19.png
+Result = Libra
+
+# 46 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 46 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 47 2 1
+Image = Gemini1.png
+Result = Pisces
+
+# 47 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 47 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 47 0 3
+Image = Aries3.png
+Result = Scorpio
+
+# 47 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 47 0 4
+Image = Aries4.png
+Result = Capricorn
+
+# 47 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 47 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 47 0 6
+Image = Aries6.png
+Result = Scorpio
+
+# 47 4 6
+Image = Leo6.png
+Result = Libra
+
+# 47 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 47 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 47 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 47 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 47 5 9
+Image = Virgo9.png
+Result = Aquarius
+
+# 47 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 47 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 47 0 10
+Image = Aries10.png
+Result = Scorpio
+
+# 47 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 47 0 11
+Image = Aries11.png
+Result = Pisces
+
+# 47 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 47 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 47 6 11
+Image = Libra11.png
+Result = Aquarius
+
+# 47 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 47 0 12
+Image = Aries12.png
+Result = Capricorn
+
+# 47 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 47 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 47 5 13
+Image = Virgo13.png
+Result = Aquarius
+
+# 47 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 47 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 47 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 47 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 47 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 47 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 47 6 16
+Image = Libra16.png
+Result = Pisces
+
+# 47 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 47 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 47 0 18
+Image = Aries18.png
+Result = Libra
+
+# 47 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 47 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 47 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 47 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 48 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 48 3 1
+Image = Cancer1.png
+Result = Capricorn
+
+# 48 4 2
+Image = Leo2.png
+Result = Pisces
+
+# 48 0 3
+Image = Aries3.png
+Result = Capricorn
+
+# 48 4 3
+Image = Leo3.png
+Result = Pisces
+
+# 48 5 3
+Image = Virgo3.png
+Result = Pisces
+
+# 48 0 4
+Image = Aries4.png
+Result = Libra
+
+# 48 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 48 0 5
+Image = Aries5.png
+Result = Scorpio
+
+# 48 0 6
+Image = Aries6.png
+Result = Aquarius
+
+# 48 4 6
+Image = Leo6.png
+Result = Sagittarius
+
+# 48 9 6
+Image = Capricorn6.png
+Result = Scorpio
+
+# 48 11 6
+Image = Pisces6.png
+Result = Scorpio
+
+# 48 6 7
+Image = Libra7.png
+Result = Pisces
+
+# 48 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 48 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 48 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 48 5 9
+Image = Virgo9.png
+Result = Capricorn
+
+# 48 6 9
+Image = Libra9.png
+Result = Gemini
+
+# 48 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 48 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 48 8 10
+Image = Sagittarius10.png
+Result = Aquarius
+
+# 48 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 48 1 11
+Image = Taurus11.png
+Result = Pisces
+
+# 48 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 48 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 48 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 48 8 12
+Image = Sagittarius12.png
+Result = Libra
+
+# 48 0 13
+Image = Aries13.png
+Result = Sagittarius
+
+# 48 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 48 0 14
+Image = Aries14.png
+Result = Sagittarius
+
+# 48 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 48 4 14
+Image = Leo14.png
+Result = Libra
+
+# 48 7 14
+Image = Scorpio14.png
+Result = Pisces
+
+# 48 8 14
+Image = Sagittarius14.png
+Result = Aquarius
+
+# 48 0 15
+Image = Aries15.png
+Result = Aquarius
+
+# 48 8 15
+Image = Sagittarius15.png
+Result = Scorpio
+
+# 48 0 16
+Image = Aries16.png
+Result = Capricorn
+
+# 48 0 17
+Image = Aries17.png
+Result = Capricorn
+
+# 48 4 17
+Image = Leo17.png
+Result = Libra
+
+# 48 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 48 10 17
+Image = Aquarius17.png
+Result = Sagittarius
+
+# 48 0 18
+Image = Aries18.png
+Result = Capricorn
+
+# 48 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 48 0 19
+Image = Aries19.png
+Result = Aquarius
+
+# 48 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 48 2 19
+Image = Gemini19.png
+Result = Pisces
+
+# 48 2 20
+Image = Gemini20.png
+Result = Pisces
+
+# 49 2 1
+Image = Gemini1.png
+Result = Aquarius
+
+# 49 3 1
+Image = Cancer1.png
+Result = Scorpio
+
+# 49 4 2
+Image = Leo2.png
+Result = Sagittarius
+
+# 49 0 3
+Image = Aries3.png
+Result = Aquarius
+
+# 49 4 3
+Image = Leo3.png
+Result = Sagittarius
+
+# 49 0 4
+Image = Aries4.png
+Result = Libra
+
+# 49 1 4
+Image = Taurus4.png
+Result = Pisces
+
+# 49 6 4
+Image = Libra4.png
+Result = Scorpio
+
+# 49 0 6
+Image = Aries6.png
+Result = Capricorn
+
+# 49 4 6
+Image = Leo6.png
+Result = Libra
+
+# 49 11 6
+Image = Pisces6.png
+Result = Capricorn
+
+# 49 0 8
+Image = Aries8.png
+Result = Capricorn
+
+# 49 6 8
+Image = Libra8.png
+Result = Pisces
+
+# 49 0 9
+Image = Aries9.png
+Result = Pisces
+
+# 49 1 9
+Image = Taurus9.png
+Result = Pisces
+
+# 49 5 9
+Image = Virgo9.png
+Result = Scorpio
+
+# 49 6 9
+Image = Libra9.png
+Result = Cancer
+
+# 49 9 9
+Image = Capricorn9.png
+Result = Pisces
+
+# 49 0 10
+Image = Aries10.png
+Result = Aquarius
+
+# 49 5 10
+Image = Virgo10.png
+Result = Scorpio
+
+# 49 8 10
+Image = Sagittarius10.png
+Result = Libra
+
+# 49 0 11
+Image = Aries11.png
+Result = Sagittarius
+
+# 49 5 11
+Image = Virgo11.png
+Result = Scorpio
+
+# 49 6 11
+Image = Libra11.png
+Result = Aquarius
+
+# 49 8 11
+Image = Sagittarius11.png
+Result = Libra
+
+# 49 0 12
+Image = Aries12.png
+Result = Aquarius
+
+# 49 8 12
+Image = Sagittarius12.png
+Result = Pisces
+
+# 49 0 13
+Image = Aries13.png
+Result = Capricorn
+
+# 49 5 13
+Image = Virgo13.png
+Result = Pisces
+
+# 49 0 14
+Image = Aries14.png
+Result = Taurus
+
+# 49 2 14
+Image = Gemini14.png
+Result = Cancer
+
+# 49 4 14
+Image = Leo14.png
+Result = Capricorn
+
+# 49 7 14
+Image = Scorpio14.png
+Result = Aquarius
+
+# 49 8 14
+Image = Sagittarius14.png
+Result = Scorpio
+
+# 49 0 15
+Image = Aries15.png
+Result = Sagittarius
+
+# 49 8 15
+Image = Sagittarius15.png
+Result = Capricorn
+
+# 49 0 16
+Image = Aries16.png
+Result = Pisces
+
+# 49 0 17
+Image = Aries17.png
+Result = Scorpio
+
+# 49 4 17
+Image = Leo17.png
+Result = Pisces
+
+# 49 8 17
+Image = Sagittarius17.png
+Result = Capricorn
+
+# 49 0 18
+Image = Aries18.png
+Result = Libra
+
+# 49 8 18
+Image = Sagittarius18.png
+Result = Capricorn
+
+# 49 0 19
+Image = Aries19.png
+Result = Virgo
+
+# 49 1 19
+Image = Taurus19.png
+Result = Pisces
+
+# 49 2 20
+Image = Gemini20.png
+Result = Pisces
+
+
+
+
+
+end train
+
+
+
