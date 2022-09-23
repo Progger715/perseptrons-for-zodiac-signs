@@ -79,7 +79,7 @@ def select():
 
         answer = perceptron.train_with_teacher(index, image_for_identy)
         answer += f" - {zodiac_signs_rus[answer]}"
-        message = f"Сеть прошла тренировку.\nНужно было обнаружить: {selected_sign}\nСеть обнаружила: {answer}"
+        message = f"Сеть прошла тренировку.\nНа картинке: {selected_sign}\nСеть обнаружила: {answer}"
         result.delete(1.0, END)
         result.insert(INSERT, message)
 

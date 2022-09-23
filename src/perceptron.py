@@ -3,26 +3,14 @@ import random
 from pathlib import Path
 from PIL import Image
 
-# Овен	Aries
-# Телец	Taurus
-# Близнецы	Gemini
-# Рак	Cancer
-# Лев	Leo
-# Дева	Virgo
-# Весы	Libra
-# Скорпион	Scorpio
-# Стрелец	Sagittarius
-# Козерог	Capricorn
-# Водолей	Aquarius
-# Рыбы	Pisces
 zodiac_signs = ["Aries", "Taurus", "Gemini",
                 "Cancer", "Leo", "Virgo",
                 "Libra", "Scorpio", "Sagittarius",
                 "Capricorn", "Aquarius", "Pisces"]
 image = None
 weights = []
-canvas = 1
-bias = 20
+w = 0.1
+bias = 0
 
 
 def init_weights():
@@ -31,7 +19,8 @@ def init_weights():
         for i in range(32):
             weights[z].append([])
             for j in range(32):
-                weights[z][i].append(canvas)
+                random_weight = random.random() * 2 - 1
+                weights[z][i].append(random_weight)
 
 
 def start_perceptron():
@@ -78,7 +67,7 @@ def identify_image(file_name=image):
             color_pixel = (r + g + b)
             if color_pixel < ignore_pixel:
                 count += 1
-                s = 1
+                s = w
                 # print(f"({x}, {y})\tr = {r}\tg = {g}\tb = {b}")
             else:
                 s = 0
@@ -102,14 +91,11 @@ def choose_name_image(net):
             if res[i][0] > max:
                 max = res[i][0]
                 max_index = res[i][1]
-        # print("choose_name_image = ", zodiac_signs[max_index])
         return zodiac_signs[max_index]
     else:
         if len(res) > 0:
-            # print("choose_name_image = ", zodiac_signs[res[0][1]])
             return zodiac_signs[res[0][1]]
         else:
-            # print("choose_name_image = None")
             return None
 
 
@@ -123,7 +109,7 @@ def add_weight(number):  # номер знака зодиака
             b = pix[x, y][2]
             color_pixel = (r + g + b)
             if color_pixel != white_pixel:
-                weights[number][x][y] += 1
+                weights[number][x][y] += w
 
 
 def reduce_weight(number):
@@ -136,44 +122,57 @@ def reduce_weight(number):
             b = pix[x, y][2]
             color_pixel = (r + g + b)
             if color_pixel != white_pixel:
-                weights[number][x][y] -= 1
+                weights[number][x][y] -= w
 
 
 def train_random():
+    def find_index():
+        index_in_mass_for_cute = files[number_file].find(".") - 3
+        string_for_search = files[number_file][:index_in_mass_for_cute]
+        for j in range(len(zodiac_signs)):
+            if zodiac_signs[j].startswith(string_for_search):
+                return j
+
+    file_path = Path(Path.cwd().parent, "False_answers_history.txt")
+    file_record_false = open(file_path, 'w')
     path = Path(Path.cwd().parent, "pictures for learning")
     for _, _, files in os.walk(path):
         pass
 
-    for i in range(7500):
+    for i in range(10000):
         print("#", i)
         global image
         number_file = random.randint(0, len(files) - 1)
         image = open_image(files[number_file])  # files[number_file] - имя файла
-        res = identify_image()  # имя знака зодиака, которое определила программа
+        result = identify_image()  # имя знака зодиака, которое определила программа
         print("Image = ", files[number_file])
-        print("Result = ", res)
-        if res is None:
+        print("Result = ", result)
+        if result is None:
             print(f"[None]\n")
             continue
-        if files[number_file].lower().startswith(res.lower()):
+        if files[number_file].startswith(result):
             print(f"[TRUE]")
-            number = zodiac_signs.index(res)
+            number = zodiac_signs.index(result)
             print("number true image = ", number)
             add_weight(number)
             print()
         else:
             print("[FALSE]")
-            number_false = zodiac_signs.index(res)
-            print("number false image = ", number_false)
+            number_false = zodiac_signs.index(result)
+            # print("number false image = ", number_false)
+            index = f'# {i}\n' \
+                    f'Image = {files[number_file]}\nResult = {result}\n\n '
+            file_record_false.write(index)
+            buf_index = find_index()
             reduce_weight(number_false)
-            add_weight()
+            add_weight(buf_index)
             print()
 
 
 def train_evenly():
     file_path = Path(Path.cwd().parent, "False_answers_history.txt")
     file_record_false = open(file_path, 'w')
-    for number_era in range(50):  # era
+    for number_era in range(20):  # era
         for number_var in range(1, 21):
             for number_sign in range(12):
                 print("#", number_era, number_sign, number_var)
@@ -186,7 +185,7 @@ def train_evenly():
                 if result is None:
                     print(f"[None]\n")
                     continue
-                if file_name.lower().startswith(result.lower()):
+                if file_name.startswith(result):
                     print(f"[TRUE]\n")
                     number = zodiac_signs.index(result)
                     add_weight(number)
@@ -195,9 +194,9 @@ def train_evenly():
                     number_false = zodiac_signs.index(result)
                     reduce_weight(number_false)
                     add_weight(number_sign)
-                    index = f'# {number_era} {zodiac_signs[number_sign]} {number_var}\n' \
-                            f'Image = {file_name}\nResult = {result}\n\n '
-                    file_record_false.write(index)
+                    record = f'# {number_era} {zodiac_signs[number_sign]} {number_var}\n' \
+                             f'Image = {file_name}\nResult = {result}\n\n '
+                    file_record_false.write(record)
     file_record_false.write("\n\n\n\nend train\n\n\n\n")
     file_record_false.close()
 
@@ -219,9 +218,7 @@ if __name__ == '__main__':
     init_weights()
     print("weight before training:")
     print_all_weights()
+    train_random()
     train_evenly()
-    print("weight after training:")
-    print_all_weights()
-    image_for_identy = Path(Path.cwd().parent, "pictures for learning", "Aquarius1.png")
-    res = identify_image(image_for_identy)
-    print("result = ", res)
+    # print("weight after training:")
+    # print_all_weights()
