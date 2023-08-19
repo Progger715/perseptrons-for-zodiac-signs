@@ -1,11 +1,18 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtGui import QImage
+from PyQt5.QtCore import Qt
 
 
-class Ui_MainWindow(object):
-    def setupUi(self, MainWindow):
-        MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(339, 432)
-        self.centralwidget = QtWidgets.QWidget(MainWindow)
+class Interface(QtWidgets.QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setup_ui()
+        self.show()
+
+    def setup_ui(self):
+        self.setObjectName("MainWindow")
+        self.resize(339, 432)
+        self.centralwidget = QtWidgets.QWidget(self)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -87,14 +94,14 @@ class Ui_MainWindow(object):
         self.label_output.setObjectName("label_output")
         self.verticalLayout_2.addWidget(self.label_output)
         self.verticalLayout.addWidget(self.frame_labels)
-        MainWindow.setCentralWidget(self.centralwidget)
+        self.setCentralWidget(self.centralwidget)
 
-        self.retranslateUi(MainWindow)
-        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        self.retranslate_ui()
+        QtCore.QMetaObject.connectSlotsByName(self)
 
-    def retranslateUi(self, MainWindow):
+    def retranslate_ui(self):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.pushButton_pen_mode.setText(_translate("MainWindow", "карандаш"))
         self.pushButton_pen_mode.setShortcut(_translate("MainWindow", "Ctrl+P"))
         self.pushButton_clear_mode.setText(_translate("MainWindow", "ластик"))
@@ -106,14 +113,11 @@ class Ui_MainWindow(object):
         self.pushButton_train.setText(_translate("MainWindow", "обучить"))
         self.pushButton_train.setShortcut(_translate("MainWindow", "Ctrl+L"))
         self.label_output.setText(_translate("MainWindow", "TextLabel"))
-# import resource_rc
 
 
 if __name__ == "__main__":
     import sys
+
     app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
+    ui = Interface()
     sys.exit(app.exec_())
