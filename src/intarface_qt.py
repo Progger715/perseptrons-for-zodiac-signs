@@ -5,12 +5,14 @@ from PyQt5.QtCore import Qt, QPoint
 from PIL import Image
 from pathlib import Path
 
+
 # from src import perceptron
 
 
 class Interface(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
+        # все компоненты
         self.centralwidget = QtWidgets.QWidget(self)
         self.verticalLayout_central_widget = QtWidgets.QVBoxLayout(self.centralwidget)
         self.frame_labels = QtWidgets.QFrame(self.centralwidget)
@@ -32,11 +34,12 @@ class Interface(QtWidgets.QMainWindow):
         self.pushButton_pen_mode = QtWidgets.QPushButton(self.frame_buttons_canvas)
         self.horizontalLayout_frame_buttons_canvas = QtWidgets.QHBoxLayout(self.frame_buttons_canvas)
 
+        # настройка всех компонентов
         self.setup_ui()
 
-        self.drawing = False
+        # настройки рисования
         self.brush_color = Qt.black
-        self.brush_size = 2
+        self.brush_size = 8
         self.last_point = QPoint()
 
         self.show()
@@ -60,21 +63,21 @@ class Interface(QtWidgets.QMainWindow):
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("icons/карандаш.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_pen_mode.setIcon(icon)
-        self.pushButton_pen_mode.setObjectName("pushButton_pen_mode")
+        self.pushButton_pen_mode.clicked.connect(self.click_pen_mode)
         self.horizontalLayout_frame_buttons_canvas.addWidget(self.pushButton_pen_mode)
 
         # pushButton_clear_mode
         icon1 = QtGui.QIcon()
         icon1.addPixmap(QtGui.QPixmap("icons/ластик.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_clear_mode.setIcon(icon1)
-        self.pushButton_clear_mode.setObjectName("pushButton_clear_mode")
+        self.pushButton_clear_mode.clicked.connect(self.click_clear_mode)
         self.horizontalLayout_frame_buttons_canvas.addWidget(self.pushButton_clear_mode)
 
         # pushButton_clear_all
         icon2 = QtGui.QIcon()
         icon2.addPixmap(QtGui.QPixmap("icons/очистить2.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_clear_all.setIcon(icon2)
-        self.pushButton_clear_all.setObjectName("pushButton_clear_all")
+        self.pushButton_clear_all.clicked.connect(self.click_clear_all)
         self.horizontalLayout_frame_buttons_canvas.addWidget(self.pushButton_clear_all)
         self.verticalLayout_central_widget.addWidget(self.frame_buttons_canvas)
 
@@ -151,7 +154,7 @@ class Interface(QtWidgets.QMainWindow):
         if self.last_point.isNull():
             self.last_point = local_pos
         painter = QtGui.QPainter(self.label_for_canvas.pixmap())
-        painter.setPen(QPen(Qt.blue, 8, Qt.PenStyle.SolidLine))
+        painter.setPen(QPen(self.brush_color, self.brush_size, Qt.PenStyle.SolidLine))
         painter.drawLine(self.last_point, local_pos)
         self.last_point = local_pos
         # painter.end()
@@ -166,6 +169,17 @@ class Interface(QtWidgets.QMainWindow):
         self._save_image(file_path)
         path_to_compressed_image = self._compress_image(file_path)
         # answer = perceptron.identify_image(path_to_compressed_image) # раскомментировать при работе
+
+    def click_clear_mode(self):
+        self.brush_color = Qt.white
+
+    def click_pen_mode(self):
+        self.brush_color = Qt.black
+
+    def click_clear_all(self):
+        clear_canvas = QtGui.QPixmap(256, 256)
+        clear_canvas.fill(Qt.white)
+        self.label_for_canvas.setPixmap(clear_canvas)
 
     # сохранить нарисованное изображение
     def _save_image(self, file_path):
