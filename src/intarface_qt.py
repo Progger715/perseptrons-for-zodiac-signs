@@ -1,17 +1,62 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtGui import QImage, QPainter, QPen
+from PyQt5.QtGui import QPen
 from PyQt5.QtCore import Qt, QPoint
-
 from PIL import Image
 from pathlib import Path
+import threading
+
+from PyQt5.QtWidgets import QDesktopWidget
+
+from src import perceptron
 
 
-# from src import perceptron
+# Класс для создания загрузочного окна
+class WorkerMessageBox(QtWidgets.QMessageBox):
+    started = QtCore.pyqtSignal()  # Сигнал о начале выполнения задачи
+    finished = QtCore.pyqtSignal()  # Сигнал о завершении выполнения задачи
+
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setWindowTitle("Learning ....")
+        self.setText("Система обучается, пожалуйста подождите ...")
+        self.setStandardButtons(QtWidgets.QMessageBox.NoButton)
+        self.finished.connect(self.accept)  # Привязка сигнала к методу accept
+        self.setStyleSheet(open("../styles/style.qss", "r").read())  # применение стилей
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("../styles/logo.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.setWindowIcon(icon)
+
+        # Получение размеров экрана
+        screen_geometry = QDesktopWidget().screenGeometry()
+        window_width = self.width()
+        window_height = self.height()
+        # Рассчет координат для центрирования окна
+        x = (screen_geometry.width() - window_width) // 2
+        y = (screen_geometry.height() - window_height) // 2
+
+        self.move(x, y)
+
+    # Выполнение функции в отдельном потоке
+    def execute(self, func):
+        threading.Thread(target=self._execute, args=(func, ()), daemon=True).start()  # Создание и запуск потока
+        return self.exec_()  # Отображение окна с сообщением и ожидание завершения
+
+    def _execute(self, func, args):
+        self.started.emit()  # Генерация сигнала о начале выполнения
+        func(*args)  # Вызов переданной функции с аргументами
+        self.finished.emit()  # Генерация сигнала о завершении выполнения
 
 
 class Interface(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
+
+        # настройка главного окна
+        self.setWindowFlags(Qt.MSWindowsFixedSizeDialogHint)  # Запретить изменение размера
+        self.setStyleSheet(open("../styles/style.qss", "r").read())  # применение стилей
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("../styles/logo.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.setWindowIcon(icon)
 
         self.zodiac_signs_rus = {"Aries": "Овен", "Taurus": "Телец", "Gemini": "Близнецы",
                                  "Cancer": "Рак", "Leo": "Лев", "Virgo": "Дева",
@@ -46,7 +91,7 @@ class Interface(QtWidgets.QMainWindow):
 
         # настройки рисования
         self.brush_color = Qt.black
-        self.brush_size = 8
+        self.brush_size = 9
         self.last_point = QPoint()
 
         self.show()
@@ -68,21 +113,21 @@ class Interface(QtWidgets.QMainWindow):
 
         # pushButton_pen_mode
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("icons/карандаш.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("../styles/icons/карандаш.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_pen_mode.setIcon(icon)
         self.pushButton_pen_mode.clicked.connect(self.click_pen_mode)
         self.horizontalLayout_frame_buttons_canvas.addWidget(self.pushButton_pen_mode)
 
         # pushButton_clear_mode
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("icons/ластик.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap("../styles/icons/ластик.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_clear_mode.setIcon(icon1)
         self.pushButton_clear_mode.clicked.connect(self.click_clear_mode)
         self.horizontalLayout_frame_buttons_canvas.addWidget(self.pushButton_clear_mode)
 
         # pushButton_clear_all
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("icons/очистить2.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap("../styles/icons/очистить2.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_clear_all.setIcon(icon2)
         self.pushButton_clear_all.clicked.connect(self.click_clear_all)
         self.horizontalLayout_frame_buttons_canvas.addWidget(self.pushButton_clear_all)
@@ -114,14 +159,14 @@ class Interface(QtWidgets.QMainWindow):
 
         # pushButton_detect
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("icons/распознать.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon3.addPixmap(QtGui.QPixmap("../styles/icons/распознать.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_detect.setIcon(icon3)
         self.pushButton_detect.clicked.connect(self.click_detect)
         self.horizontalLayout_frame_buttons_detect.addWidget(self.pushButton_detect)
 
         # pushButton_train
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("icons/обучить.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon4.addPixmap(QtGui.QPixmap("../styles/icons/обучить.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_train.setIcon(icon4)
         self.pushButton_train.clicked.connect(self.click_train)
         self.horizontalLayout_frame_buttons_detect.addWidget(self.pushButton_train)
@@ -147,7 +192,7 @@ class Interface(QtWidgets.QMainWindow):
 
     def retranslate_ui(self):
         _translate = QtCore.QCoreApplication.translate
-        self.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.setWindowTitle(_translate("MainWindow", "Perceptron"))
         self.pushButton_pen_mode.setText(_translate("MainWindow", "карандаш"))
         self.pushButton_pen_mode.setShortcut(_translate("MainWindow", "Ctrl+P"))
         self.pushButton_clear_mode.setText(_translate("MainWindow", "ластик"))
@@ -158,7 +203,7 @@ class Interface(QtWidgets.QMainWindow):
         self.pushButton_detect.setShortcut(_translate("MainWindow", "Ctrl+S"))
         self.pushButton_train.setText(_translate("MainWindow", "обучить"))
         self.pushButton_train.setShortcut(_translate("MainWindow", "Ctrl+L"))
-        self.label_output.setText(_translate("MainWindow", "TextLabel"))
+        self.label_output.setText(_translate("MainWindow", "Здесь будет отображен ответ системы"))
 
     # метод для рисования на холсте
     def mouseMoveEvent(self, e):
@@ -191,7 +236,9 @@ class Interface(QtWidgets.QMainWindow):
         file_path = Path(Path.cwd().parent, "picture reads", "Image1.png")
         self._save_image(file_path)
         path_to_compressed_image = self._compress_image(file_path)
-        # answer = perceptron.identify_image(path_to_compressed_image) # раскомментировать при работе
+        answer = perceptron.identify_image(path_to_compressed_image)  # раскомментировать при работе
+        print(answer)
+        self.label_output.setText(f"Вы нарисовали: {answer} - {self.zodiac_signs_rus[answer]}")
 
     # Показать раскрывающийся список (комбо-бокс)
     def click_train(self):
@@ -205,6 +252,12 @@ class Interface(QtWidgets.QMainWindow):
     def handle_combobox_selection(self, index):
         selected_option = self.combo_box_response_options.itemText(index)
         print(f"Выбран вариант: {selected_option}")
+
+        image_for_identy = Path(Path.cwd().parent, "picture reads", "compressed_image.png")
+        perceptron.init_weights()
+        answer = perceptron.train_with_teacher(index, image_for_identy)
+        print()
+        self.label_output.setText(f"Система обучилась и определила: {answer}")
 
     # сохранить нарисованное изображение
     def _save_image(self, file_path):
@@ -226,5 +279,10 @@ if __name__ == "__main__":
     import sys
 
     app = QtWidgets.QApplication(sys.argv)
+
+    # Создание и отображение загрузочного окна
+    msgBox = WorkerMessageBox()
+    msgBox.execute(perceptron.start_perceptron)  # Выполнение обучения в отдельном потоке
+
     ui = Interface()
     sys.exit(app.exec_())
