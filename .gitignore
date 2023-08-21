@@ -7,3 +7,4 @@ src/__pycache__/perceptron.cpython-39.pyc
 False_answers_history.txt
 picture reads/
 src/intarface_n.py
+src/test.py

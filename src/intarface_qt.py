@@ -1,99 +1,125 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtGui import QImage
-from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QImage, QPainter, QPen
+from PyQt5.QtCore import Qt, QPoint
 
 
 class Interface(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
+        self.centralwidget = QtWidgets.QWidget(self)
+        self.verticalLayout_central_widget = QtWidgets.QVBoxLayout(self.centralwidget)
+        self.frame_labels = QtWidgets.QFrame(self.centralwidget)
+        self.verticalLayout_for_frame_labels = QtWidgets.QVBoxLayout(self.frame_labels)
+        self.label_output = QtWidgets.QLabel(self.frame_labels)
+
+        self.frame_buttons_detect = QtWidgets.QFrame(self.centralwidget)
+        self.pushButton_train = QtWidgets.QPushButton(self.frame_buttons_detect)
+        self.pushButton_detect = QtWidgets.QPushButton(self.frame_buttons_detect)
+        self.horizontalLayout_frame_buttons_detect = QtWidgets.QHBoxLayout(self.frame_buttons_detect)
+
+        self.frame_canvas = QtWidgets.QFrame(self.centralwidget)
+        self.label_for_canvas = QtWidgets.QLabel()
+        self.verticallLayout_canvas_frame = QtWidgets.QHBoxLayout(self.frame_canvas)
+
+        self.frame_buttons_canvas = QtWidgets.QFrame(self.centralwidget)
+        self.pushButton_clear_all = QtWidgets.QPushButton(self.frame_buttons_canvas)
+        self.pushButton_clear_mode = QtWidgets.QPushButton(self.frame_buttons_canvas)
+        self.pushButton_pen_mode = QtWidgets.QPushButton(self.frame_buttons_canvas)
+        self.horizontalLayout_frame_buttons_canvas = QtWidgets.QHBoxLayout(self.frame_buttons_canvas)
+
         self.setup_ui()
+
+        self.drawing = False
+        self.brush_color = Qt.black
+        self.brush_size = 2
+        self.last_point = QPoint()
+
         self.show()
 
     def setup_ui(self):
         self.setObjectName("MainWindow")
         self.resize(339, 432)
-        self.centralwidget = QtWidgets.QWidget(self)
+
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.centralwidget.sizePolicy().hasHeightForWidth())
         self.centralwidget.setSizePolicy(sizePolicy)
-        self.centralwidget.setObjectName("centralwidget")
-        self.verticalLayout = QtWidgets.QVBoxLayout(self.centralwidget)
-        self.verticalLayout.setObjectName("verticalLayout")
-        self.frame_buttons_canvas = QtWidgets.QFrame(self.centralwidget)
+
         self.frame_buttons_canvas.setMaximumSize(QtCore.QSize(16777215, 45))
         self.frame_buttons_canvas.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_buttons_canvas.setFrameShadow(QtWidgets.QFrame.Raised)
-        self.frame_buttons_canvas.setObjectName("frame_buttons_canvas")
-        self.horizontalLayout = QtWidgets.QHBoxLayout(self.frame_buttons_canvas)
-        self.horizontalLayout.setContentsMargins(-1, 0, -1, 0)
-        self.horizontalLayout.setObjectName("horizontalLayout")
-        self.pushButton_pen_mode = QtWidgets.QPushButton(self.frame_buttons_canvas)
+        self.horizontalLayout_frame_buttons_canvas.setContentsMargins(-1, 0, -1, 0)
+
+        # pushButton_pen_mode
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("icons/карандаш.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        # icon.addPixmap(QtGui.QPixmap("src"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_pen_mode.setIcon(icon)
         self.pushButton_pen_mode.setObjectName("pushButton_pen_mode")
-        self.horizontalLayout.addWidget(self.pushButton_pen_mode)
-        self.pushButton_clear_mode = QtWidgets.QPushButton(self.frame_buttons_canvas)
+        self.horizontalLayout_frame_buttons_canvas.addWidget(self.pushButton_pen_mode)
+
+        # pushButton_clear_mode
         icon1 = QtGui.QIcon()
         icon1.addPixmap(QtGui.QPixmap("icons/ластик.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_clear_mode.setIcon(icon1)
         self.pushButton_clear_mode.setObjectName("pushButton_clear_mode")
-        self.horizontalLayout.addWidget(self.pushButton_clear_mode)
-        self.pushButton_clear_all = QtWidgets.QPushButton(self.frame_buttons_canvas)
+        self.horizontalLayout_frame_buttons_canvas.addWidget(self.pushButton_clear_mode)
+
+        # pushButton_clear_all
         icon2 = QtGui.QIcon()
         icon2.addPixmap(QtGui.QPixmap("icons/очистить2.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_clear_all.setIcon(icon2)
         self.pushButton_clear_all.setObjectName("pushButton_clear_all")
-        self.horizontalLayout.addWidget(self.pushButton_clear_all)
-        self.verticalLayout.addWidget(self.frame_buttons_canvas)
-        self.frame_canvas = QtWidgets.QFrame(self.centralwidget)
+        self.horizontalLayout_frame_buttons_canvas.addWidget(self.pushButton_clear_all)
+        self.verticalLayout_central_widget.addWidget(self.frame_buttons_canvas)
+
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.frame_canvas.sizePolicy().hasHeightForWidth())
         self.frame_canvas.setSizePolicy(sizePolicy)
-        self.frame_canvas.setMaximumSize(QtCore.QSize(1000, 128))
+        self.frame_canvas.setMaximumSize(QtCore.QSize(1000, 1000))
         self.frame_canvas.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.frame_canvas.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_canvas.setFrameShadow(QtWidgets.QFrame.Raised)
-        self.frame_canvas.setObjectName("frame_canvas")
-        self.horizontalLayout_3 = QtWidgets.QHBoxLayout(self.frame_canvas)
-        self.horizontalLayout_3.setObjectName("horizontalLayout_3")
-        self.verticalLayout.addWidget(self.frame_canvas)
-        self.frame_buttons_detect = QtWidgets.QFrame(self.centralwidget)
+
+        canvas = QtGui.QPixmap(256, 256)
+        canvas.fill(Qt.white)
+        self.label_for_canvas.setPixmap(canvas)
+        self.verticallLayout_canvas_frame.addItem(
+            QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding))
+        self.verticallLayout_canvas_frame.addWidget(self.label_for_canvas)
+        self.verticallLayout_canvas_frame.addItem(
+            QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding))
+        self.verticalLayout_central_widget.addWidget(self.frame_canvas)
+
         self.frame_buttons_detect.setMaximumSize(QtCore.QSize(16777215, 60))
         self.frame_buttons_detect.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_buttons_detect.setFrameShadow(QtWidgets.QFrame.Raised)
-        self.frame_buttons_detect.setObjectName("frame_buttons_detect")
-        self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.frame_buttons_detect)
-        self.horizontalLayout_2.setObjectName("horizontalLayout_2")
-        self.pushButton_detect = QtWidgets.QPushButton(self.frame_buttons_detect)
+
+        # pushButton_detect
         icon3 = QtGui.QIcon()
         icon3.addPixmap(QtGui.QPixmap("icons/распознать.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_detect.setIcon(icon3)
         self.pushButton_detect.setObjectName("pushButton_detect")
-        self.horizontalLayout_2.addWidget(self.pushButton_detect)
-        self.pushButton_train = QtWidgets.QPushButton(self.frame_buttons_detect)
+        self.horizontalLayout_frame_buttons_detect.addWidget(self.pushButton_detect)
+
+        # pushButton_train
         icon4 = QtGui.QIcon()
         icon4.addPixmap(QtGui.QPixmap("icons/обучить.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_train.setIcon(icon4)
         self.pushButton_train.setObjectName("pushButton_train")
-        self.horizontalLayout_2.addWidget(self.pushButton_train)
-        self.verticalLayout.addWidget(self.frame_buttons_detect)
-        self.frame_labels = QtWidgets.QFrame(self.centralwidget)
+        self.horizontalLayout_frame_buttons_detect.addWidget(self.pushButton_train)
+        self.verticalLayout_central_widget.addWidget(self.frame_buttons_detect)
+
         self.frame_labels.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_labels.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_labels.setObjectName("frame_labels")
-        self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.frame_labels)
-        self.verticalLayout_2.setObjectName("verticalLayout_2")
-        self.label_output = QtWidgets.QLabel(self.frame_labels)
+
         self.label_output.setOpenExternalLinks(False)
         self.label_output.setObjectName("label_output")
-        self.verticalLayout_2.addWidget(self.label_output)
-        self.verticalLayout.addWidget(self.frame_labels)
+        self.verticalLayout_for_frame_labels.addWidget(self.label_output)
+        self.verticalLayout_central_widget.addWidget(self.frame_labels)
         self.setCentralWidget(self.centralwidget)
 
         self.retranslate_ui()
