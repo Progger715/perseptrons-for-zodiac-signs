@@ -140,6 +140,22 @@ class Interface(QtWidgets.QMainWindow):
         self.pushButton_train.setShortcut(_translate("MainWindow", "Ctrl+L"))
         self.label_output.setText(_translate("MainWindow", "TextLabel"))
 
+    # метод для рисования на холсте
+    def mouseMoveEvent(self, e):
+        local_pos = self.label_for_canvas.mapFromGlobal(e.globalPos())
+        if self.last_point.isNull():
+            self.last_point = local_pos
+        painter = QtGui.QPainter(self.label_for_canvas.pixmap())
+        painter.setPen(QPen(Qt.blue, 8, Qt.PenStyle.SolidLine))
+        painter.drawLine(self.last_point, local_pos)
+        self.last_point = local_pos
+        # painter.end()
+        self.update()
+
+    # обнулить значение последней точки при отпускании кнопки мыши
+    def mouseReleaseEvent(self, event):
+        self.last_point = QPoint()
+
 
 if __name__ == "__main__":
     import sys
