@@ -2,6 +2,11 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtGui import QImage, QPainter, QPen
 from PyQt5.QtCore import Qt, QPoint
 
+from PIL import Image
+from pathlib import Path
+
+# from src import perceptron
+
 
 class Interface(QtWidgets.QMainWindow):
     def __init__(self):
@@ -101,7 +106,7 @@ class Interface(QtWidgets.QMainWindow):
         icon3 = QtGui.QIcon()
         icon3.addPixmap(QtGui.QPixmap("icons/распознать.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_detect.setIcon(icon3)
-        self.pushButton_detect.setObjectName("pushButton_detect")
+        self.pushButton_detect.clicked.connect(self.click_detect)
         self.horizontalLayout_frame_buttons_detect.addWidget(self.pushButton_detect)
 
         # pushButton_train
@@ -155,6 +160,27 @@ class Interface(QtWidgets.QMainWindow):
     # обнулить значение последней точки при отпускании кнопки мыши
     def mouseReleaseEvent(self, event):
         self.last_point = QPoint()
+
+    def click_detect(self):
+        file_path = Path(Path.cwd().parent, "picture reads", "Image1.png")
+        self._save_image(file_path)
+        path_to_compressed_image = self._compress_image(file_path)
+        # answer = perceptron.identify_image(path_to_compressed_image) # раскомментировать при работе
+
+    # сохранить нарисованное изображение
+    def _save_image(self, file_path):
+        if file_path:
+            self.label_for_canvas.pixmap().save(file_path.__str__())
+
+    # сжать изображение
+    @staticmethod
+    def _compress_image(file_path: Path):
+        image = Image.open(file_path)
+        path_to_compressed_image = file_path.parent.joinpath("compressed_image.png")
+        new_size = (32, 32)
+        small_image = image.resize(new_size)
+        small_image.save(path_to_compressed_image)
+        return path_to_compressed_image
 
 
 if __name__ == "__main__":
