@@ -12,6 +12,12 @@ from pathlib import Path
 class Interface(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
+
+        self.zodiac_signs_rus = {"Aries": "Овен", "Taurus": "Телец", "Gemini": "Близнецы",
+                                 "Cancer": "Рак", "Leo": "Лев", "Virgo": "Дева",
+                                 "Libra": "Весы", "Scorpio": "Скорпион", "Sagittarius": "Стрелец",
+                                 "Capricorn": "Козерог", "Aquarius": "Водолей", "Pisces": "Рыбы"}
+
         # все компоненты
         self.centralwidget = QtWidgets.QWidget(self)
         self.verticalLayout_central_widget = QtWidgets.QVBoxLayout(self.centralwidget)
@@ -22,6 +28,7 @@ class Interface(QtWidgets.QMainWindow):
         self.frame_buttons_detect = QtWidgets.QFrame(self.centralwidget)
         self.pushButton_train = QtWidgets.QPushButton(self.frame_buttons_detect)
         self.pushButton_detect = QtWidgets.QPushButton(self.frame_buttons_detect)
+        self.combo_box_response_options = QtWidgets.QComboBox()
         self.horizontalLayout_frame_buttons_detect = QtWidgets.QHBoxLayout(self.frame_buttons_detect)
 
         self.frame_canvas = QtWidgets.QFrame(self.centralwidget)
@@ -116,9 +123,14 @@ class Interface(QtWidgets.QMainWindow):
         icon4 = QtGui.QIcon()
         icon4.addPixmap(QtGui.QPixmap("icons/обучить.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_train.setIcon(icon4)
-        self.pushButton_train.setObjectName("pushButton_train")
+        self.pushButton_train.clicked.connect(self.click_train)
         self.horizontalLayout_frame_buttons_detect.addWidget(self.pushButton_train)
         self.verticalLayout_central_widget.addWidget(self.frame_buttons_detect)
+
+        # Добавление вариантов в комбо-бокс
+        for sign in self.zodiac_signs_rus.values():
+            self.combo_box_response_options.addItem(sign)
+        self.combo_box_response_options.currentIndexChanged.connect(self.handle_combobox_selection)
 
         self.frame_labels.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_labels.setFrameShadow(QtWidgets.QFrame.Raised)
@@ -164,12 +176,6 @@ class Interface(QtWidgets.QMainWindow):
     def mouseReleaseEvent(self, event):
         self.last_point = QPoint()
 
-    def click_detect(self):
-        file_path = Path(Path.cwd().parent, "picture reads", "Image1.png")
-        self._save_image(file_path)
-        path_to_compressed_image = self._compress_image(file_path)
-        # answer = perceptron.identify_image(path_to_compressed_image) # раскомментировать при работе
-
     def click_clear_mode(self):
         self.brush_color = Qt.white
 
@@ -180,6 +186,25 @@ class Interface(QtWidgets.QMainWindow):
         clear_canvas = QtGui.QPixmap(256, 256)
         clear_canvas.fill(Qt.white)
         self.label_for_canvas.setPixmap(clear_canvas)
+
+    def click_detect(self):
+        file_path = Path(Path.cwd().parent, "picture reads", "Image1.png")
+        self._save_image(file_path)
+        path_to_compressed_image = self._compress_image(file_path)
+        # answer = perceptron.identify_image(path_to_compressed_image) # раскомментировать при работе
+
+    # Показать раскрывающийся список (комбо-бокс)
+    def click_train(self):
+        # Получение глобальных координат кнопки
+        button_global_pos = self.pushButton_train.mapToGlobal(self.pushButton_train.rect().bottomLeft())
+        # Показать раскрывающийся список по указанным координатам
+        self.combo_box_response_options.move(button_global_pos)
+        self.combo_box_response_options.showPopup()
+
+    # Обработка выбора варианта в комбо-боксе
+    def handle_combobox_selection(self, index):
+        selected_option = self.combo_box_response_options.itemText(index)
+        print(f"Выбран вариант: {selected_option}")
 
     # сохранить нарисованное изображение
     def _save_image(self, file_path):
