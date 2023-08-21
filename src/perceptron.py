@@ -2,6 +2,7 @@ import os
 import random
 from pathlib import Path
 from PIL import Image
+from alive_progress import alive_bar
 
 zodiac_signs = ["Aries", "Taurus", "Gemini",
                 "Cancer", "Leo", "Virgo",
@@ -9,7 +10,7 @@ zodiac_signs = ["Aries", "Taurus", "Gemini",
                 "Capricorn", "Aquarius", "Pisces"]
 image = None
 weights = []
-w = 0.1
+w_active = 0.1
 bias = 0
 
 
@@ -67,13 +68,13 @@ def identify_image(file_name=image):
             color_pixel = (r + g + b)
             if color_pixel < ignore_pixel:
                 count += 1
-                s = w
+                s = w_active
                 # print(f"({x}, {y})\tr = {r}\tg = {g}\tb = {b}")
             else:
                 s = 0
             for i in range(12):
                 net[i] += s * weights[i][x][y]
-    print("net = ", net)
+    # print("net = ", net)
     # print("count = ", count)
     return choose_name_image(net)
 
@@ -109,7 +110,7 @@ def add_weight(number):  # номер знака зодиака
             b = pix[x, y][2]
             color_pixel = (r + g + b)
             if color_pixel != white_pixel:
-                weights[number][x][y] += w
+                weights[number][x][y] += w_active
 
 
 def reduce_weight(number):
@@ -122,7 +123,7 @@ def reduce_weight(number):
             b = pix[x, y][2]
             color_pixel = (r + g + b)
             if color_pixel != white_pixel:
-                weights[number][x][y] -= w
+                weights[number][x][y] -= w_active
 
 
 def train_random():
@@ -138,67 +139,74 @@ def train_random():
     path = Path(Path.cwd().parent, "pictures for learning")
     for _, _, files in os.walk(path):
         pass
-
-    for i in range(10000):
-        print("#", i)
-        global image
-        number_file = random.randint(0, len(files) - 1)
-        image = open_image(files[number_file])  # files[number_file] - имя файла
-        result = identify_image()  # имя знака зодиака, которое определила программа
-        print("Image = ", files[number_file])
-        print("Result = ", result)
-        if result is None:
-            print(f"[None]\n")
-            continue
-        if files[number_file].startswith(result):
-            print(f"[TRUE]")
-            number = zodiac_signs.index(result)
-            print("number true image = ", number)
-            add_weight(number)
-            print()
-        else:
-            print("[FALSE]")
-            number_false = zodiac_signs.index(result)
-            # print("number false image = ", number_false)
-            index = f'# {i}\n' \
-                    f'Image = {files[number_file]}\nResult = {result}\n\n '
-            file_record_false.write(index)
-            buf_index = find_index()
-            reduce_weight(number_false)
-            add_weight(buf_index)
-            print()
+    count_training = 10000
+    with alive_bar(count_training, dual_line=True) as bar:
+        for i in range(count_training):
+            # print("#", i)
+            bar.text = '-> The system is being trained, please wait...'
+            global image
+            number_file = random.randint(0, len(files) - 1)
+            image = open_image(files[number_file])  # files[number_file] - имя файла
+            result = identify_image()  # имя знака зодиака, которое определила программа
+            # print("Image = ", files[number_file])
+            # print("Result = ", result)
+            if result is None:
+                # print(f"[None]\n")
+                continue
+            if files[number_file].startswith(result):
+                # print(f"[TRUE]")
+                number = zodiac_signs.index(result)
+                # print("number true image = ", number)
+                add_weight(number)
+            else:
+                # print("[FALSE]")
+                number_false = zodiac_signs.index(result)
+                # print("number false image = ", number_false)
+                index = f'# {i}\n' \
+                        f'Image = {files[number_file]}\nResult = {result}\n\n '
+                file_record_false.write(index)
+                buf_index = find_index()
+                reduce_weight(number_false)
+                add_weight(buf_index)
+            bar()
 
 
 def train_evenly():
     file_path = Path(Path.cwd().parent, "False_answers_history.txt")
     file_record_false = open(file_path, 'w')
-    for number_era in range(20):  # era
-        for number_var in range(1, 21):
-            for number_sign in range(12):
-                print("#", number_era, number_sign, number_var)
-                global image
-                file_name = zodiac_signs[number_sign] + f"{number_var}" + ".png"
-                image = open_image(file_name)
-                result = identify_image()  # имя знака зодиака, которое определила программа
-                print("Image = ", file_name)
-                print("Result = ", result)
-                if result is None:
-                    print(f"[None]\n")
-                    continue
-                if file_name.startswith(result):
-                    print(f"[TRUE]\n")
-                    number = zodiac_signs.index(result)
-                    add_weight(number)
-                else:
-                    print("[FALSE]\n")
-                    number_false = zodiac_signs.index(result)
-                    reduce_weight(number_false)
-                    add_weight(number_sign)
-                    record = f'# {number_era} {zodiac_signs[number_sign]} {number_var}\n' \
-                             f'Image = {file_name}\nResult = {result}\n\n '
-                    file_record_false.write(record)
+    count_eras = 25
+    with alive_bar(count_eras, dual_line=True) as bar:
+        for number_era in range(count_eras):  # era
+            # print(number_era)
+            bar.text = '-> The system is being trained, please wait...'
+            for number_var in range(1, 21):
+                for number_sign in range(12):
+                    # print("#", number_era, number_sign, number_var)
+                    global image
+                    file_name = zodiac_signs[number_sign] + f"{number_var}" + ".png"
+                    image = open_image(file_name)
+                    result = identify_image()  # имя знака зодиака, которое определила программа
+                    # print("Image = ", file_name)
+                    # print("Result = ", result)
+                    if result is None:
+                        # print(f"[None]\n")
+                        continue
+                    if file_name.startswith(result):
+                        # print(f"[TRUE]\n")
+                        number = zodiac_signs.index(result)
+                        add_weight(number)
+                    else:
+                        # print("[FALSE]\n")
+                        number_false = zodiac_signs.index(result)
+                        reduce_weight(number_false)
+                        add_weight(number_sign)
+                        record = f'# {number_era} {zodiac_signs[number_sign]} {number_var}\n' \
+                                 f'Image = {file_name}\nResult = {result}\n\n '
+                        file_record_false.write(record)
+            bar()
     file_record_false.write("\n\n\n\nend train\n\n\n\n")
     file_record_false.close()
+    print("system has finished training")
 
 
 def train_with_teacher(index_sign_zodiac, name_file):
@@ -217,8 +225,8 @@ def train_with_teacher(index_sign_zodiac, name_file):
 if __name__ == '__main__':
     init_weights()
     print("weight before training:")
-    print_all_weights()
-    train_random()
-    train_evenly()
-    # print("weight after training:")
     # print_all_weights()
+    train_evenly()
+    print("weight after training:")
+    # print_all_weights()
+

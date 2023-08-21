@@ -87,7 +87,7 @@ def select():
 
 
 def create_window():
-    root.title("Лаба1")
+    root.title("Perceptron")
     width = root.winfo_screenwidth()
     height = root.winfo_screenheight()
     width = width // 2
@@ -119,5 +119,5 @@ def create_window():
 if __name__ == "__main__":
     create_window()
     perceptron.start_perceptron()
-    perceptron.print_all_weights()
+    # perceptron.print_all_weights()
     root.mainloop()
